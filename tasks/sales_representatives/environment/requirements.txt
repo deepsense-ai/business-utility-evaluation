@@ -1,0 +1,6 @@
+  numpy>=2.0.0
+  pandas>=2.2.0
+  PyYAML>=6.0.2
+  scikit-learn>=1.7.2
+  scipy-stubs>=1.16.2.3
+  statsmodels>=0.14.6
