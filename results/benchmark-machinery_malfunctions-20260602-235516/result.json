@@ -1,0 +1,177 @@
+{
+    "id": "ecd8de07-2d19-40ad-a8b3-8a6dc86e1118",
+    "started_at": "2026-06-02T23:55:18.261646",
+    "updated_at": "2026-06-03T00:48:35.916890",
+    "finished_at": "2026-06-03T00:48:35.916890",
+    "n_total_trials": 30,
+    "stats": {
+        "n_completed_trials": 30,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "claude-code__claude-opus-4-8__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.7665056360708534
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.7407407407407407": [
+                            "machinery_malfunctions__cRUZeLh",
+                            "machinery_malfunctions__LJUYgQ9",
+                            "machinery_malfunctions__GNVXZ9o",
+                            "machinery_malfunctions__qiEgJHJ"
+                        ],
+                        "0.8695652173913043": [
+                            "machinery_malfunctions__mz6vFCM"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "claude-code__claude-sonnet-4-6__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.37861480624638516
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.12087912087912088": [
+                            "machinery_malfunctions__pQQceEP",
+                            "machinery_malfunctions__gzzEfQJ"
+                        ],
+                        "0.625": [
+                            "machinery_malfunctions__pHxXGRw"
+                        ],
+                        "0.5263157894736842": [
+                            "machinery_malfunctions__zCJGBda"
+                        ],
+                        "0.5": [
+                            "machinery_malfunctions__eJtnv3F"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "codex__gpt-5.5__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.7203065134099618
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.7407407407407407": [
+                            "machinery_malfunctions__jgyZwLH",
+                            "machinery_malfunctions__ScMiW8h",
+                            "machinery_malfunctions__ajTonDf"
+                        ],
+                        "0.6896551724137931": [
+                            "machinery_malfunctions__6uMbfmD",
+                            "machinery_malfunctions__UbWwPD6"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "codex__gpt-5.4__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.622003490166183
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.6296296296296297": [
+                            "machinery_malfunctions__7okVrx5"
+                        ],
+                        "0.5555555555555556": [
+                            "machinery_malfunctions__33Hsadq"
+                        ],
+                        "0.6451612903225806": [
+                            "machinery_malfunctions__LQ7d5WG"
+                        ],
+                        "0.7391304347826086": [
+                            "machinery_malfunctions__zGtPHVR"
+                        ],
+                        "0.5405405405405406": [
+                            "machinery_malfunctions__rhynWHT"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "gemini-cli__gemini-3.1-pro-preview__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.5796464340928951
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.5263157894736842": [
+                            "machinery_malfunctions__33fYxra",
+                            "machinery_malfunctions__Y6utmF9",
+                            "machinery_malfunctions__sJPeSrP"
+                        ],
+                        "0.6296296296296297": [
+                            "machinery_malfunctions__Y234BFc"
+                        ],
+                        "0.6896551724137931": [
+                            "machinery_malfunctions__ug7UCRb"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "gemini-cli__gemini-3.5-flash__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.36414112203585886
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.5263157894736842": [
+                            "machinery_malfunctions__nDnngoT",
+                            "machinery_malfunctions__5BZoLzX",
+                            "machinery_malfunctions__svKjMY5"
+                        ],
+                        "0.12087912087912088": [
+                            "machinery_malfunctions__88ERan5",
+                            "machinery_malfunctions__dom2jJn"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 69591945,
+        "n_cache_tokens": 64329384,
+        "n_output_tokens": 1515538,
+        "cost_usd": 65.23501195
+    }
+}

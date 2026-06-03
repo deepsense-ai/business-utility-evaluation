@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Parse all raw inputs",
+  "description": "Parse raw_orders, raw_supplier_receipts, raw_wholesaler_receipts, raw_wholesaler_store_receipts into structured per-day data. Handle all 4 file formats (text-template, key-value, table-csv, api-json).",
+  "activeForm": "Parsing all raw inputs",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

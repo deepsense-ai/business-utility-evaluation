@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Detect quality rejection events",
+  "description": "From per-consumer sales_log demand, detect staged 14-day recovery signatures (20/50/80/100%), separating out the exogenous calendar component (summer dip, holiday effect, product-specific strength).",
+  "activeForm": "Detecting rejection events",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

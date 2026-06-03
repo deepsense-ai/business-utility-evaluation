@@ -1,0 +1,15 @@
+[project]
+name = "agent-based-simulation-harbor"
+version = "0.1.0"
+description = "Internal agent-based simulation benchmark tools."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "harbor==0.13.0",
+    "click",
+    "numpy>=2.4.6",
+]
+
+
+[tool.uv]
+package = false

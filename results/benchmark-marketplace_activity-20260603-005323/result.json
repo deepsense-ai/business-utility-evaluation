@@ -1,0 +1,196 @@
+{
+    "id": "069e947a-cda8-4bbb-830a-00a4fd45f959",
+    "started_at": "2026-06-03T00:53:25.543798",
+    "updated_at": "2026-06-03T01:44:30.085692",
+    "finished_at": "2026-06-03T01:44:30.085692",
+    "n_total_trials": 30,
+    "stats": {
+        "n_completed_trials": 30,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "claude-code__claude-opus-4-8__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.6794478951000691
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "marketplace_activity__zbNYGfr"
+                        ],
+                        "0.4444444444444444": [
+                            "marketplace_activity__rLVKaZS"
+                        ],
+                        "0.35714285714285715": [
+                            "marketplace_activity__EYRzUzQ"
+                        ],
+                        "0.9": [
+                            "marketplace_activity__DbigSFW"
+                        ],
+                        "0.6956521739130435": [
+                            "marketplace_activity__vmNhAW3"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "claude-code__claude-sonnet-4-6__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.12465679965679966
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.0": [
+                            "marketplace_activity__3oN2G5o",
+                            "marketplace_activity__6AYQrxb"
+                        ],
+                        "0.5238095238095238": [
+                            "marketplace_activity__EsqPtAS"
+                        ],
+                        "0.05555555555555555": [
+                            "marketplace_activity__5BVjXKN"
+                        ],
+                        "0.04391891891891892": [
+                            "marketplace_activity__nbySPBQ"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "codex__gpt-5.5__adhoc": {
+                "n_trials": 4,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.5614906832298137
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.6666666666666666": [
+                            "marketplace_activity__9fV4Nrz"
+                        ],
+                        "0.6190476190476191": [
+                            "marketplace_activity__oQULMYj"
+                        ],
+                        "0.5217391304347826": [
+                            "marketplace_activity__BJ39cFt"
+                        ],
+                        "1.0": [
+                            "marketplace_activity__BjV9XCS"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "RewardFileNotFoundError": [
+                        "marketplace_activity__fp82ip6"
+                    ]
+                }
+            },
+            "codex__gpt-5.4__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.598042537172972
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.4782608695652174": [
+                            "marketplace_activity__BbgcokD"
+                        ],
+                        "0.5238095238095238": [
+                            "marketplace_activity__JwnHicD"
+                        ],
+                        "0.6086956521739131": [
+                            "marketplace_activity__6NA9dKd"
+                        ],
+                        "0.6521739130434783": [
+                            "marketplace_activity__vbJcBMX"
+                        ],
+                        "0.7272727272727273": [
+                            "marketplace_activity__km4dyj2"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "gemini-cli__gemini-3.1-pro-preview__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.13399999999999998
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.0": [
+                            "marketplace_activity__DekKgQx",
+                            "marketplace_activity__6oVMsKi",
+                            "marketplace_activity__Sab86cg"
+                        ],
+                        "0.35": [
+                            "marketplace_activity__qagjs5f"
+                        ],
+                        "0.32": [
+                            "marketplace_activity__8TKsbyk"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "gemini-cli__gemini-3.5-flash__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.33133771929824557
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.03125": [
+                            "marketplace_activity__CkX7Hve"
+                        ],
+                        "0.3333333333333333": [
+                            "marketplace_activity__HaFcmae"
+                        ],
+                        "0.45": [
+                            "marketplace_activity__rLXYR4h"
+                        ],
+                        "0.8421052631578947": [
+                            "marketplace_activity__XhgcNYN"
+                        ],
+                        "0.0": [
+                            "marketplace_activity__igt3SaX"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 69182006,
+        "n_cache_tokens": 64397000,
+        "n_output_tokens": 1346998,
+        "cost_usd": 57.05965595
+    }
+}

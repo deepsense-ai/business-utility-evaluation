@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Reconstruct store FIFO inventory and consumption",
+  "description": "Simulate each store's per-product FIFO inventory of producer batches; consume per daily sold_quantity from sales_log. Determine which producer batch each unit sold on each day came from.",
+  "activeForm": "Reconstructing store inventory/consumption",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

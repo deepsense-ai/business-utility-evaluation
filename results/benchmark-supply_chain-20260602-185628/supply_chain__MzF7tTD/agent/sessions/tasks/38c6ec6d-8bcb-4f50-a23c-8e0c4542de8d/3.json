@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Simulate store FIFO consumption",
+  "description": "Maintain per-store per-product FIFO inventory of producer-tagged batches; consume Sold_Quantity each day; record which producer's units were sold each (day,store,product).",
+  "activeForm": "Simulating store FIFO consumption",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

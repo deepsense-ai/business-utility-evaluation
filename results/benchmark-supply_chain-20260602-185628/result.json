@@ -1,0 +1,204 @@
+{
+    "id": "d1cf2188-ce2b-4c58-9afc-dcce6af7b47f",
+    "started_at": "2026-06-02T18:56:30.648345",
+    "updated_at": "2026-06-02T20:42:04.307621",
+    "finished_at": "2026-06-02T20:42:04.307621",
+    "n_total_trials": 30,
+    "stats": {
+        "n_completed_trials": 30,
+        "n_errored_trials": 3,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "claude-code__claude-opus-4-8__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.2918918918918919
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.20270270270270271": [
+                            "supply_chain__JJVSZDH"
+                        ],
+                        "0.3918918918918919": [
+                            "supply_chain__MzF7tTD"
+                        ],
+                        "0.14864864864864866": [
+                            "supply_chain__eHbNmCo"
+                        ],
+                        "0.4144144144144144": [
+                            "supply_chain__znR3LaX"
+                        ],
+                        "0.30180180180180183": [
+                            "supply_chain__wK4rMNU"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "claude-code__claude-sonnet-4-6__adhoc": {
+                "n_trials": 5,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.045137878917006144
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.025974025974025976": [
+                            "supply_chain__f7BPbv5"
+                        ],
+                        "0.0": [
+                            "supply_chain__CeFv8T2"
+                        ],
+                        "0.08949416342412451": [
+                            "supply_chain__Mk8PP2Y"
+                        ],
+                        "0.008771929824561403": [
+                            "supply_chain__mAY5b4a"
+                        ],
+                        "0.10144927536231885": [
+                            "supply_chain__HxfDbU3"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "NonZeroAgentExitCodeError": [
+                        "supply_chain__CeFv8T2"
+                    ]
+                }
+            },
+            "codex__gpt-5.5__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.16066984888597377
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.058091286307053944": [
+                            "supply_chain__b7TFzVs"
+                        ],
+                        "0.06910569105691057": [
+                            "supply_chain__XQNfuzT"
+                        ],
+                        "0.05042016806722689": [
+                            "supply_chain__ZSYmVPg"
+                        ],
+                        "0.5063291139240507": [
+                            "supply_chain__Wd8hYJ7"
+                        ],
+                        "0.11940298507462686": [
+                            "supply_chain__XqZFkx8"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "codex__gpt-5.4__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.171029262719454
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.10126582278481013": [
+                            "supply_chain__RmibHGA"
+                        ],
+                        "0.022321428571428572": [
+                            "supply_chain__NcvjrBT"
+                        ],
+                        "0.6340579710144928": [
+                            "supply_chain__ViTKw3Q"
+                        ],
+                        "0.021551724137931036": [
+                            "supply_chain__aKMcekL"
+                        ],
+                        "0.0759493670886076": [
+                            "supply_chain__Mu9gZGE"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "gemini-cli__gemini-3.1-pro-preview__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.1677864149269093
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.14410480349344978": [
+                            "supply_chain__Qt9AXDs"
+                        ],
+                        "0.059574468085106386": [
+                            "supply_chain__fJfJZJX"
+                        ],
+                        "0.0984251968503937": [
+                            "supply_chain__HoinrVt"
+                        ],
+                        "0.3508771929824561": [
+                            "supply_chain__FKDhWCM"
+                        ],
+                        "0.1859504132231405": [
+                            "supply_chain__ypMkVFv"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "gemini-cli__gemini-3.5-flash__adhoc": {
+                "n_trials": 3,
+                "n_errors": 2,
+                "metrics": [
+                    {
+                        "mean": 0.2175755715153996
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.29512893982808025": [
+                            "supply_chain__PFSxvjb"
+                        ],
+                        "0.16071428571428573": [
+                            "supply_chain__KAYV8yQ"
+                        ],
+                        "0.6320346320346321": [
+                            "supply_chain__yd9rmrA"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "NonZeroAgentExitCodeError": [
+                        "supply_chain__eqwcCDE",
+                        "supply_chain__MvSv33G"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": 174006939,
+        "n_cache_tokens": 157068979,
+        "n_output_tokens": 2334520,
+        "cost_usd": 129.66742095
+    }
+}

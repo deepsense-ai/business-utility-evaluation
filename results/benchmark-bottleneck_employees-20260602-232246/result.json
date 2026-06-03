@@ -1,0 +1,182 @@
+{
+    "id": "21264aa0-ef29-4160-8697-74d93ac36305",
+    "started_at": "2026-06-02T23:22:49.381582",
+    "updated_at": "2026-06-02T23:50:12.175029",
+    "finished_at": "2026-06-02T23:50:12.175029",
+    "n_total_trials": 30,
+    "stats": {
+        "n_completed_trials": 30,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "claude-code__claude-opus-4-8__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.6
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.3333333333333333": [
+                            "bottleneck_employees__E6AASme",
+                            "bottleneck_employees__MdJbzf3",
+                            "bottleneck_employees__dymrBnD"
+                        ],
+                        "1.0": [
+                            "bottleneck_employees__upLd8ab",
+                            "bottleneck_employees__dVRYB9n"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "claude-code__claude-sonnet-4-6__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.4690384615384615
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.26666666666666666": [
+                            "bottleneck_employees__gG8q76Z"
+                        ],
+                        "0.9166666666666666": [
+                            "bottleneck_employees__j56WdeG"
+                        ],
+                        "0.4166666666666667": [
+                            "bottleneck_employees__HJf7Kg7"
+                        ],
+                        "0.3076923076923077": [
+                            "bottleneck_employees__KPXwtpi"
+                        ],
+                        "0.4375": [
+                            "bottleneck_employees__uArQbq7"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "codex__gpt-5.5__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.5904761904761905
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "bottleneck_employees__sUmSjaY",
+                            "bottleneck_employees__6T74UUX"
+                        ],
+                        "0.2857142857142857": [
+                            "bottleneck_employees__eaa7wF4"
+                        ],
+                        "0.3333333333333333": [
+                            "bottleneck_employees__io3HDX7",
+                            "bottleneck_employees__sdHP3Js"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "codex__gpt-5.4__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.3046052631578947
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.3333333333333333": [
+                            "bottleneck_employees__LcVLUo5",
+                            "bottleneck_employees__Kmjucex",
+                            "bottleneck_employees__qW3Pz67"
+                        ],
+                        "0.3125": [
+                            "bottleneck_employees__PRXdwYU"
+                        ],
+                        "0.21052631578947367": [
+                            "bottleneck_employees__U9oVvVu"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "gemini-cli__gemini-3.1-pro-preview__adhoc": {
+                "n_trials": 5,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.3289855072463768
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.16666666666666666": [
+                            "bottleneck_employees__uPWdMJh"
+                        ],
+                        "0.4782608695652174": [
+                            "bottleneck_employees__dSz9275"
+                        ],
+                        "0.3333333333333333": [
+                            "bottleneck_employees__2XZDRM5",
+                            "bottleneck_employees__RvWjRGk",
+                            "bottleneck_employees__MrsxH5R"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "gemini-cli__gemini-3.5-flash__adhoc": {
+                "n_trials": 4,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.23296703296703294
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.19047619047619047": [
+                            "bottleneck_employees__eKc2igt"
+                        ],
+                        "0.3333333333333333": [
+                            "bottleneck_employees__fXefWHU",
+                            "bottleneck_employees__UQYQYNR"
+                        ],
+                        "0.3076923076923077": [
+                            "bottleneck_employees__LBndPkr"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "RewardFileNotFoundError": [
+                        "bottleneck_employees__cuXNufC"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": 42227582,
+        "n_cache_tokens": 38311985,
+        "n_output_tokens": 786970,
+        "cost_usd": 36.313096050000006
+    }
+}

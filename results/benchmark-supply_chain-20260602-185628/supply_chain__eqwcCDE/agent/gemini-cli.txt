@@ -1,0 +1,27 @@
+Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.
+YOLO mode is enabled. All tool calls will be automatically approved.
+Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+YOLO mode is enabled. All tool calls will be automatically approved.
+Ripgrep is not available. Falling back to GrepTool.
+Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+Error executing tool read_file: File size exceeds the 20MB limit.
+I will run a shell command to view the first 15 lines of `sales_log.csv` to understand its schema and data format.
+I will execute a python script to inspect the unique combinations of columns and structure in `sales_log.csv`.
+I will execute a python script to count unique values and check how many transactions/rows exist per Store/Day/Product in `sales_log.csv`.
+I will execute a python script to inspect the unique products, stores, and total number of days in `sales_log.csv`.
+I will execute a python script to filter and display all rows for S_1 and P_1 on Day 1, and on other days.
+Error when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2026-06-02T17-21-50-880Z.json _ApiError: {"error":{"message":"{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The input token count exceeds the maximum number of tokens allowed 1048576.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n","code":400,"status":"Bad Request"}}
+    at throwErrorIfNotOK (file:///root/.nvm/versions/node/v22.22.3/lib/node_modules/@google/gemini-cli/bundle/chunk-GPVT36PL.js:264043:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///root/.nvm/versions/node/v22.22.3/lib/node_modules/@google/gemini-cli/bundle/chunk-GPVT36PL.js:263806:7
+    at async Models.generateContentStream (file:///root/.nvm/versions/node/v22.22.3/lib/node_modules/@google/gemini-cli/bundle/chunk-GPVT36PL.js:264902:16)
+    at async file:///root/.nvm/versions/node/v22.22.3/lib/node_modules/@google/gemini-cli/bundle/chunk-GPVT36PL.js:307830:19
+    at async file:///root/.nvm/versions/node/v22.22.3/lib/node_modules/@google/gemini-cli/bundle/chunk-GPVT36PL.js:283579:23
+    at async retryWithBackoff (file:///root/.nvm/versions/node/v22.22.3/lib/node_modules/@google/gemini-cli/bundle/chunk-GPVT36PL.js:304840:23)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///root/.nvm/versions/node/v22.22.3/lib/node_modules/@google/gemini-cli/bundle/chunk-GPVT36PL.js:328262:28)
+    at async GeminiChat.streamWithRetries (file:///root/.nvm/versions/node/v22.22.3/lib/node_modules/@google/gemini-cli/bundle/chunk-GPVT36PL.js:328079:29)
+    at async Turn.run (file:///root/.nvm/versions/node/v22.22.3/lib/node_modules/@google/gemini-cli/bundle/chunk-GPVT36PL.js:328826:24) {
+  status: 400
+}
+An unexpected critical error occurred:[object Object]

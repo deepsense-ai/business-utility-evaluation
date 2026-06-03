@@ -1,0 +1,111 @@
+{
+    "id": "181e6d1d-0317-4c15-be69-fce6c1992671",
+    "task_name": "deepsense.ai/supply_chain",
+    "trial_name": "supply_chain__fJfJZJX",
+    "trial_uri": "file:///home/hubert/code/dnb/agent-based-simulation/results/benchmark-supply_chain-20260602-185628/supply_chain__fJfJZJX",
+    "task_id": {
+        "path": "tasks/supply_chain"
+    },
+    "source": null,
+    "task_checksum": "1f3c7a4798de678af5fa1d0372dcc02a176d65002042dd7a73f6fcf1ff46073f",
+    "config": {
+        "task": {
+            "path": "tasks/supply_chain",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "supply_chain__fJfJZJX",
+        "trials_dir": "results/benchmark-supply_chain-20260602-185628",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "gemini-cli",
+            "import_path": null,
+            "model_name": "google/gemini-3.1-pro-preview",
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {
+                "reasoning_effort": "high"
+            },
+            "env": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "job_id": "d1cf2188-ce2b-4c58-9afc-dcce6af7b47f"
+    },
+    "agent_info": {
+        "name": "gemini-cli",
+        "version": "0.44.1",
+        "model_info": {
+            "name": "gemini-3.1-pro-preview",
+            "provider": "google"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 4486226,
+        "n_cache_tokens": 4167280,
+        "n_output_tokens": 43169,
+        "cost_usd": 1.989376,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.059574468085106386
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-06-02T17:14:48.496903Z",
+    "finished_at": "2026-06-02T17:34:48.531615Z",
+    "environment_setup": {
+        "started_at": "2026-06-02T17:14:48.499499Z",
+        "finished_at": "2026-06-02T17:15:04.488561Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-06-02T17:15:04.488585Z",
+        "finished_at": "2026-06-02T17:16:05.744671Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-06-02T17:16:05.744760Z",
+        "finished_at": "2026-06-02T17:34:21.791698Z"
+    },
+    "verifier": {
+        "started_at": "2026-06-02T17:34:25.642679Z",
+        "finished_at": "2026-06-02T17:34:28.990468Z"
+    },
+    "step_results": null
+}

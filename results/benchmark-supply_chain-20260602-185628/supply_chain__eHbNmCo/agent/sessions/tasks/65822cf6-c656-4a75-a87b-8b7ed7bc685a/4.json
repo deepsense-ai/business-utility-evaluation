@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Detect quality-rejection events from demand",
+  "description": "Separate calendar component (shared across stores, per-product strength) from store-specific staged 14-day recovery dips (20/50/80%). Identify (store,product,day) rejection onset events.",
+  "activeForm": "Detecting rejection events",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

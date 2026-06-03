@@ -1,0 +1,7 @@
+
+GT:
+{"Barcelona":["Art","Books","Decor"],"Bilbao":["Bags","Formalwear","Women's Shoes"],"Madrid":["Fitness","Garden","Pets"],"Sevilla":["Computers","Consoles","Video Games"],"Valencia":["Bicycles","Furniture","Tools"],"Zaragoza":["Cameras","Collectibles","Musical Instruments"]}
+
+Answer:
+{"A Coruna": ["Furniture", "Hiking", "Music", "Personal Care"], "Bilbao": ["Bags", "Formalwear", "Hiking", "Photography"], "Burgos": ["Car Accessories", "Catering", "Helmets", "Jewelry", "Men's Shoes", "Musical Instruments"], "Cadiz": ["Baby", "Lighting", "Motor Tools", "Movies"], "Cordoba": ["Appliances", "Cleaning", "Strollers"], "Elche": ["Strollers"], "Girona": ["Computers", "Spare Parts"], "Granada": ["Moving", "Women's Clothing"], "Leon": ["Art", "Audio", "Balls", "Men's Clothing", "Moving", "Musical Instruments", "Watches"], "Logrono": ["Cleaning", "Movies", "Musical Instruments"], "Madrid": ["Pets"], "Oviedo": ["Baby", "Events", "Lighting", "Sportswear"], "Palma": ["Fitness"], "Pamplona": ["Home Textiles"], "Salamanca": ["Luggage", "School Supplies", "Toys"], "Santander": ["Appliances", "Kitchen", "Toys", "Women's Clothing"], "Toledo": ["Audio", "Bicycles", "Men's Shoes", "Toys", "Training", "Women's Shoes"], "Vigo": ["Men's Shoes"], "Zaragoza": ["Collectibles"]}
+Reward: 0.05555555555555555

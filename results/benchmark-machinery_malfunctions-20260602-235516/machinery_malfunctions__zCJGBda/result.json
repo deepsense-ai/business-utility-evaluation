@@ -1,0 +1,111 @@
+{
+    "id": "c3c86e0d-01c0-433e-8338-ffd5c087be12",
+    "task_name": "deepsense.ai/machinery_malfunctions",
+    "trial_name": "machinery_malfunctions__zCJGBda",
+    "trial_uri": "file:///home/hubert/code/dnb/agent-based-simulation/results/benchmark-machinery_malfunctions-20260602-235516/machinery_malfunctions__zCJGBda",
+    "task_id": {
+        "path": "tasks/machinery_malfunctions"
+    },
+    "source": null,
+    "task_checksum": "bed2b675dc0550d6c4eb84fe0b7471ca9db37d89365705b8ae701b817b5f9ddf",
+    "config": {
+        "task": {
+            "path": "tasks/machinery_malfunctions",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "machinery_malfunctions__zCJGBda",
+        "trials_dir": "results/benchmark-machinery_malfunctions-20260602-235516",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "claude-code",
+            "import_path": null,
+            "model_name": "anthropic/claude-sonnet-4-6",
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {
+                "reasoning_effort": "xhigh"
+            },
+            "env": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "job_id": "ecd8de07-2d19-40ad-a8b3-8a6dc86e1118"
+    },
+    "agent_info": {
+        "name": "claude-code",
+        "version": "2.1.161",
+        "model_info": {
+            "name": "claude-sonnet-4-6",
+            "provider": "anthropic"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 734046,
+        "n_cache_tokens": 651945,
+        "n_output_tokens": 51283,
+        "cost_usd": 1.27269525,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.5263157894736842
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-06-02T22:04:39.433024Z",
+    "finished_at": "2026-06-02T22:19:35.598911Z",
+    "environment_setup": {
+        "started_at": "2026-06-02T22:04:39.437969Z",
+        "finished_at": "2026-06-02T22:04:56.228097Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-06-02T22:04:56.228120Z",
+        "finished_at": "2026-06-02T22:05:27.240986Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-06-02T22:05:27.241057Z",
+        "finished_at": "2026-06-02T22:19:08.556445Z"
+    },
+    "verifier": {
+        "started_at": "2026-06-02T22:19:12.874462Z",
+        "finished_at": "2026-06-02T22:19:16.371949Z"
+    },
+    "step_results": null
+}

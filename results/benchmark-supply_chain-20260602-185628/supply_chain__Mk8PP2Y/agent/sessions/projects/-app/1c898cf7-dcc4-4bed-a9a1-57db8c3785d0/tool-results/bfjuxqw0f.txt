@@ -1,0 +1,413 @@
+Loading sales data...
+Raw rows: 2741217
+Aggregated rows: 109500
+Products: 30, Stores: 10, Days: 365
+
+Parsing wholesaler sequence numbers...
+Wholesaler seq: 365 days
+Parsing supplier deliveries...
+Supplier deliveries: 365 days
+Parsing store orders...
+Store orders: 365 days
+Parsing wholesaler store receipts...
+Store seq: 365 days
+
+Running FIFO simulation...
+FIFO simulation complete!
+
+Detecting quality rejections...
+  REJECT: P_1 @ S_1, day=199, norm=0.798, phases=[np.float64(0.93), np.float64(0.95), np.float64(1.01)], supplier=PR_29
+  REJECT: P_1 @ S_2, day=179, norm=0.789, phases=[np.float64(0.92), np.float64(0.92), np.float64(0.99)], supplier=PR_57
+  REJECT: P_1 @ S_5, day=5, norm=0.799, phases=[np.float64(0.81), np.float64(0.93), np.float64(0.94)], supplier=PR_20
+  REJECT: P_1 @ S_5, day=87, norm=0.775, phases=[np.float64(0.85), np.float64(0.9), np.float64(0.91)], supplier=PR_32
+  REJECT: P_1 @ S_5, day=115, norm=0.787, phases=[np.float64(0.84), np.float64(0.86), np.float64(0.88)], supplier=PR_51
+  REJECT: P_1 @ S_5, day=264, norm=0.793, phases=[np.float64(0.8), np.float64(0.85), np.float64(0.95)], supplier=PR_54
+  REJECT: P_1 @ S_5, day=266, norm=0.721, phases=[np.float64(0.79), np.float64(0.9), np.float64(0.96)], supplier=PR_24
+  REJECT: P_1 @ S_5, day=268, norm=0.799, phases=[np.float64(0.85), np.float64(0.92), np.float64(0.96)], supplier=PR_33
+  REJECT: P_1 @ S_9, day=168, norm=0.785, phases=[np.float64(0.81), np.float64(0.92), np.float64(0.98)], supplier=PR_29
+  REJECT: P_1 @ S_9, day=194, norm=0.788, phases=[np.float64(0.81), np.float64(0.85), np.float64(0.96)], supplier=PR_31
+  REJECT: P_1 @ S_9, day=196, norm=0.778, phases=[np.float64(0.84), np.float64(0.88), np.float64(0.98)], supplier=PR_33
+  REJECT: P_1 @ S_9, day=199, norm=0.731, phases=[np.float64(0.88), np.float64(0.95), np.float64(0.97)], supplier=PR_54
+  REJECT: P_10 @ S_2, day=36, norm=0.771, phases=[np.float64(0.79), np.float64(0.85), np.float64(0.94)], supplier=PR_36
+  REJECT: P_10 @ S_2, day=72, norm=0.757, phases=[np.float64(0.79), np.float64(0.89), np.float64(1.05)], supplier=PR_58
+  REJECT: P_10 @ S_2, day=157, norm=0.783, phases=[np.float64(0.8), np.float64(0.97), np.float64(0.99)], supplier=PR_52
+  REJECT: P_10 @ S_2, day=171, norm=0.779, phases=[np.float64(0.9), np.float64(0.96), np.float64(1.06)], supplier=PR_50
+  REJECT: P_10 @ S_2, day=193, norm=0.773, phases=[np.float64(0.86), np.float64(0.89), np.float64(0.91)], supplier=PR_2
+  REJECT: P_10 @ S_2, day=204, norm=0.666, phases=[np.float64(0.85), np.float64(0.86), np.float64(1.04)], supplier=PR_60
+  REJECT: P_10 @ S_2, day=225, norm=0.799, phases=[np.float64(0.82), np.float64(0.89), np.float64(0.9)], supplier=PR_20
+  REJECT: P_10 @ S_3, day=163, norm=0.764, phases=[np.float64(0.81), np.float64(0.95), np.float64(1.0)], supplier=PR_58
+  REJECT: P_10 @ S_3, day=165, norm=0.763, phases=[np.float64(0.9), np.float64(0.91), np.float64(1.03)], supplier=PR_39
+  REJECT: P_10 @ S_3, day=222, norm=0.788, phases=[np.float64(0.9), np.float64(0.96), np.float64(0.99)], supplier=PR_20
+  REJECT: P_10 @ S_3, day=256, norm=0.778, phases=[np.float64(0.9), np.float64(0.94), np.float64(0.95)], supplier=PR_60
+  REJECT: P_10 @ S_3, day=297, norm=0.774, phases=[np.float64(0.82), np.float64(0.89), np.float64(0.97)], supplier=PR_60
+  REJECT: P_10 @ S_7, day=22, norm=0.762, phases=[np.float64(0.74), np.float64(0.87), np.float64(0.98)], supplier=PR_58
+  REJECT: P_10 @ S_7, day=170, norm=0.781, phases=[np.float64(0.8), np.float64(0.93), np.float64(1.08)], supplier=PR_19
+  REJECT: P_10 @ S_7, day=221, norm=0.637, phases=[np.float64(0.68), np.float64(0.87), np.float64(0.93)], supplier=PR_58
+  REJECT: P_10 @ S_7, day=291, norm=0.762, phases=[np.float64(0.8), np.float64(0.9), np.float64(0.9)], supplier=PR_45
+  REJECT: P_10 @ S_7, day=324, norm=0.794, phases=[np.float64(0.85), np.float64(0.86), np.float64(1.01)], supplier=PR_16
+  REJECT: P_10 @ S_7, day=356, norm=0.764, phases=[np.float64(0.86), np.float64(0.92)], supplier=PR_45
+  REJECT: P_11 @ S_1, day=233, norm=0.784, phases=[np.float64(0.83), np.float64(0.9), np.float64(0.95)], supplier=PR_37
+  REJECT: P_11 @ S_10, day=169, norm=0.752, phases=[np.float64(0.82), np.float64(0.91), np.float64(0.91)], supplier=PR_11
+  REJECT: P_11 @ S_10, day=191, norm=0.775, phases=[np.float64(0.9), np.float64(0.92), np.float64(0.95)], supplier=PR_11
+  REJECT: P_11 @ S_10, day=299, norm=0.791, phases=[np.float64(0.83), np.float64(0.93), np.float64(1.02)], supplier=PR_22
+  REJECT: P_11 @ S_3, day=178, norm=0.701, phases=[np.float64(0.85), np.float64(0.99), np.float64(1.01)], supplier=PR_39
+  REJECT: P_11 @ S_4, day=166, norm=0.763, phases=[np.float64(0.91), np.float64(0.94), np.float64(1.0)], supplier=PR_16
+  REJECT: P_11 @ S_5, day=214, norm=0.795, phases=[np.float64(0.87), np.float64(0.89), np.float64(0.99)], supplier=PR_16
+  REJECT: P_11 @ S_5, day=232, norm=0.795, phases=[np.float64(0.91), np.float64(0.93), np.float64(0.94)], supplier=PR_21
+  REJECT: P_11 @ S_6, day=206, norm=0.759, phases=[np.float64(0.9), np.float64(0.91), np.float64(0.98)], supplier=PR_16
+  REJECT: P_11 @ S_7, day=213, norm=0.794, phases=[np.float64(0.86), np.float64(0.93), np.float64(1.02)], supplier=PR_21
+  REJECT: P_11 @ S_8, day=175, norm=0.766, phases=[np.float64(0.87), np.float64(0.94), np.float64(1.03)], supplier=PR_35
+  REJECT: P_11 @ S_8, day=212, norm=0.788, phases=[np.float64(0.91), np.float64(0.94), np.float64(1.02)], supplier=PR_35
+  REJECT: P_12 @ S_1, day=202, norm=0.762, phases=[np.float64(0.85), np.float64(0.96), np.float64(0.97)], supplier=PR_40
+  REJECT: P_12 @ S_2, day=5, norm=0.791, phases=[np.float64(0.83), np.float64(0.9), np.float64(1.03)], supplier=PR_22
+  REJECT: P_12 @ S_2, day=31, norm=0.781, phases=[np.float64(0.85), np.float64(0.93), np.float64(0.95)], supplier=PR_36
+  REJECT: P_12 @ S_2, day=62, norm=0.794, phases=[np.float64(0.87), np.float64(0.9), np.float64(0.93)], supplier=PR_7
+  REJECT: P_12 @ S_2, day=92, norm=0.794, phases=[np.float64(0.81), np.float64(0.88), np.float64(0.92)], supplier=PR_13
+  REJECT: P_12 @ S_2, day=236, norm=0.769, phases=[np.float64(0.81), np.float64(0.94), np.float64(0.99)], supplier=PR_13
+  REJECT: P_12 @ S_2, day=346, norm=0.788, phases=[np.float64(0.86), np.float64(0.9), np.float64(1.0)], supplier=PR_13
+  REJECT: P_12 @ S_3, day=221, norm=0.786, phases=[np.float64(0.84), np.float64(0.92), np.float64(0.99)], supplier=PR_36
+  REJECT: P_12 @ S_6, day=62, norm=0.793, phases=[np.float64(0.83), np.float64(0.9), np.float64(1.01)], supplier=PR_9
+  REJECT: P_12 @ S_6, day=293, norm=0.786, phases=[np.float64(0.83), np.float64(0.94), np.float64(0.97)], supplier=PR_46
+  REJECT: P_12 @ S_7, day=33, norm=0.795, phases=[np.float64(0.84), np.float64(1.01), np.float64(1.02)], supplier=PR_48
+  REJECT: P_12 @ S_7, day=65, norm=0.748, phases=[np.float64(0.83), np.float64(0.87), np.float64(0.93)], supplier=PR_43
+  REJECT: P_12 @ S_7, day=129, norm=0.754, phases=[np.float64(0.76), np.float64(0.86), np.float64(0.96)], supplier=PR_49
+  REJECT: P_12 @ S_7, day=163, norm=0.715, phases=[np.float64(0.84), np.float64(0.89), np.float64(0.91)], supplier=PR_13
+  REJECT: P_12 @ S_7, day=187, norm=0.793, phases=[np.float64(0.78), np.float64(0.94), np.float64(0.95)], supplier=PR_43
+  REJECT: P_12 @ S_7, day=213, norm=0.763, phases=[np.float64(0.86), np.float64(0.96), np.float64(0.99)], supplier=PR_7
+  REJECT: P_12 @ S_7, day=253, norm=0.781, phases=[np.float64(0.77), np.float64(0.86), np.float64(0.99)], supplier=PR_36
+  REJECT: P_12 @ S_7, day=290, norm=0.731, phases=[np.float64(0.75), np.float64(0.87), np.float64(0.88)], supplier=PR_49
+  REJECT: P_12 @ S_7, day=316, norm=0.795, phases=[np.float64(0.82), np.float64(0.9), np.float64(0.99)], supplier=PR_43
+  REJECT: P_13 @ S_1, day=179, norm=0.734, phases=[np.float64(0.87), np.float64(0.91), np.float64(0.99)], supplier=PR_12
+  REJECT: P_13 @ S_10, day=109, norm=0.791, phases=[np.float64(0.83), np.float64(0.86), np.float64(0.91)], supplier=PR_3
+  REJECT: P_13 @ S_10, day=219, norm=0.771, phases=[np.float64(0.85), np.float64(0.98), np.float64(1.01)], supplier=PR_3
+  REJECT: P_13 @ S_2, day=5, norm=0.795, phases=[np.float64(0.84), np.float64(0.93), np.float64(1.01)], supplier=PR_8
+  REJECT: P_13 @ S_2, day=170, norm=0.694, phases=[np.float64(0.83), np.float64(0.88), np.float64(0.95)], supplier=PR_6
+  REJECT: P_13 @ S_2, day=176, norm=0.761, phases=[np.float64(0.86), np.float64(0.96), np.float64(0.97)], supplier=PR_60
+  REJECT: P_13 @ S_2, day=178, norm=0.768, phases=[np.float64(0.88), np.float64(0.98), np.float64(0.99)], supplier=PR_4
+  REJECT: P_13 @ S_3, day=205, norm=0.785, phases=[np.float64(0.8), np.float64(0.87), np.float64(0.97)], supplier=PR_3
+  REJECT: P_13 @ S_3, day=207, norm=0.795, phases=[np.float64(0.83), np.float64(0.91), np.float64(1.0)], supplier=PR_40
+  REJECT: P_13 @ S_4, day=173, norm=0.707, phases=[np.float64(0.87), np.float64(0.89), np.float64(0.96)], supplier=PR_18
+  REJECT: P_13 @ S_4, day=191, norm=0.750, phases=[np.float64(0.82), np.float64(0.91), np.float64(0.97)], supplier=PR_11
+  REJECT: P_13 @ S_4, day=222, norm=0.786, phases=[np.float64(0.82), np.float64(0.87), np.float64(0.96)], supplier=PR_8
+  REJECT: P_13 @ S_5, day=166, norm=0.725, phases=[np.float64(0.86), np.float64(0.99), np.float64(1.02)], supplier=PR_15
+  REJECT: P_13 @ S_6, day=182, norm=0.789, phases=[np.float64(0.9), np.float64(0.92), np.float64(0.96)], supplier=PR_14
+  REJECT: P_13 @ S_6, day=207, norm=0.797, phases=[np.float64(0.89), np.float64(1.01), np.float64(1.02)], supplier=PR_38
+  REJECT: P_13 @ S_7, day=22, norm=0.797, phases=[np.float64(0.81), np.float64(0.92), np.float64(0.93)], supplier=PR_10
+  REJECT: P_13 @ S_7, day=184, norm=0.771, phases=[np.float64(0.8), np.float64(0.93), np.float64(1.03)], supplier=PR_4
+  REJECT: P_13 @ S_7, day=201, norm=0.754, phases=[np.float64(0.79), np.float64(0.88), np.float64(0.9)], supplier=PR_38
+  REJECT: P_13 @ S_7, day=210, norm=0.778, phases=[np.float64(0.85), np.float64(0.9), np.float64(0.92)], supplier=PR_45
+  REJECT: P_13 @ S_7, day=219, norm=0.737, phases=[np.float64(0.84), np.float64(1.01), np.float64(1.04)], supplier=PR_52
+  REJECT: P_13 @ S_7, day=341, norm=0.751, phases=[np.float64(0.77), np.float64(0.88), np.float64(0.92)], supplier=PR_52
+  REJECT: P_13 @ S_8, day=202, norm=0.790, phases=[np.float64(0.84), np.float64(0.96), np.float64(1.05)], supplier=PR_40
+  REJECT: P_14 @ S_2, day=41, norm=0.784, phases=[np.float64(0.86), np.float64(0.87), np.float64(0.9)], supplier=PR_34
+  REJECT: P_14 @ S_2, day=97, norm=0.800, phases=[np.float64(0.86), np.float64(0.93), np.float64(0.95)], supplier=PR_19
+  REJECT: P_14 @ S_2, day=199, norm=0.775, phases=[np.float64(0.85), np.float64(0.89), np.float64(0.93)], supplier=PR_14
+  REJECT: P_14 @ S_6, day=156, norm=0.764, phases=[np.float64(0.82), np.float64(0.9), np.float64(0.96)], supplier=PR_54
+  REJECT: P_14 @ S_6, day=268, norm=0.797, phases=[np.float64(0.85), np.float64(0.99), np.float64(1.02)], supplier=PR_41
+  REJECT: P_15 @ S_10, day=174, norm=0.772, phases=[np.float64(0.89), np.float64(0.98), np.float64(0.99)], supplier=PR_17
+  REJECT: P_15 @ S_2, day=190, norm=0.772, phases=[np.float64(0.86), np.float64(0.89), np.float64(1.0)], supplier=PR_34
+  REJECT: P_15 @ S_2, day=232, norm=0.785, phases=[np.float64(0.94), np.float64(0.95), np.float64(0.97)], supplier=PR_28
+  REJECT: P_15 @ S_3, day=7, norm=0.783, phases=[np.float64(0.7), np.float64(0.86), np.float64(0.97)], supplier=PR_32
+  REJECT: P_15 @ S_3, day=26, norm=0.779, phases=[np.float64(0.83), np.float64(0.84), np.float64(0.86)], supplier=PR_58
+  REJECT: P_15 @ S_3, day=31, norm=0.745, phases=[np.float64(0.73), np.float64(0.87), np.float64(0.93)], supplier=PR_11
+  REJECT: P_15 @ S_3, day=49, norm=0.739, phases=[np.float64(0.77), np.float64(0.85), np.float64(0.87)], supplier=PR_16
+  REJECT: P_15 @ S_3, day=70, norm=0.723, phases=[np.float64(0.77), np.float64(0.89), np.float64(1.01)], supplier=PR_52
+  REJECT: P_15 @ S_3, day=88, norm=0.763, phases=[np.float64(0.78), np.float64(0.91), np.float64(0.97)], supplier=PR_52
+  REJECT: P_15 @ S_3, day=124, norm=0.757, phases=[np.float64(0.71), np.float64(0.85), np.float64(0.97)], supplier=PR_59
+  REJECT: P_15 @ S_3, day=145, norm=0.729, phases=[np.float64(0.71), np.float64(0.81), np.float64(0.93)], supplier=PR_19
+  REJECT: P_15 @ S_3, day=188, norm=0.791, phases=[np.float64(0.78), np.float64(0.91), np.float64(0.92)], supplier=PR_19
+  REJECT: P_15 @ S_3, day=202, norm=0.581, phases=[np.float64(0.86), np.float64(0.91), np.float64(0.98)], supplier=PR_21
+  REJECT: P_15 @ S_3, day=218, norm=0.735, phases=[np.float64(0.9), np.float64(1.05), np.float64(1.08)], supplier=PR_11
+  REJECT: P_15 @ S_3, day=256, norm=0.757, phases=[np.float64(0.72), np.float64(0.84), np.float64(0.97)], supplier=PR_52
+  REJECT: P_15 @ S_3, day=281, norm=0.684, phases=[np.float64(0.74), np.float64(0.87), np.float64(0.94)], supplier=PR_19
+  REJECT: P_15 @ S_3, day=283, norm=0.718, phases=[np.float64(0.79), np.float64(0.94), np.float64(0.95)], supplier=PR_33
+  REJECT: P_15 @ S_3, day=325, norm=0.729, phases=[np.float64(0.84), np.float64(0.88), np.float64(0.91)], supplier=PR_52
+  REJECT: P_15 @ S_6, day=235, norm=0.783, phases=[np.float64(0.87), np.float64(0.97), np.float64(0.97)], supplier=PR_52
+  REJECT: P_15 @ S_7, day=185, norm=0.737, phases=[np.float64(0.83), np.float64(0.84), np.float64(0.93)], supplier=PR_21
+  REJECT: P_15 @ S_7, day=201, norm=0.782, phases=[np.float64(0.86), np.float64(0.94), np.float64(0.94)], supplier=PR_20
+  REJECT: P_15 @ S_7, day=261, norm=0.800, phases=[np.float64(0.84), np.float64(0.85), np.float64(0.9)], supplier=PR_53
+  REJECT: P_15 @ S_7, day=265, norm=0.785, phases=[np.float64(0.84), np.float64(0.9), np.float64(0.92)], supplier=PR_19
+  REJECT: P_15 @ S_7, day=346, norm=0.797, phases=[np.float64(0.88), np.float64(0.9), np.float64(0.98)], supplier=PR_32
+  REJECT: P_15 @ S_9, day=175, norm=0.766, phases=[np.float64(0.85), np.float64(0.94), np.float64(1.02)], supplier=PR_32
+  REJECT: P_16 @ S_10, day=185, norm=0.791, phases=[np.float64(0.93), np.float64(0.98), np.float64(0.98)], supplier=PR_53
+  REJECT: P_16 @ S_4, day=212, norm=0.780, phases=[np.float64(0.91), np.float64(0.95), np.float64(0.99)], supplier=PR_41
+  REJECT: P_16 @ S_6, day=186, norm=0.794, phases=[np.float64(0.87), np.float64(1.02), np.float64(1.03)], supplier=PR_13
+  REJECT: P_16 @ S_8, day=165, norm=0.775, phases=[np.float64(0.86), np.float64(0.94), np.float64(0.97)], supplier=PR_15
+  REJECT: P_16 @ S_8, day=193, norm=0.731, phases=[np.float64(0.82), np.float64(0.87), np.float64(0.88)], supplier=PR_15
+  REJECT: P_17 @ S_1, day=354, norm=0.751, phases=[np.float64(0.87), np.float64(0.96)], supplier=PR_8
+  REJECT: P_17 @ S_4, day=180, norm=0.785, phases=[np.float64(0.82), np.float64(0.87), np.float64(0.9)], supplier=PR_4
+  REJECT: P_17 @ S_4, day=216, norm=0.787, phases=[np.float64(0.86), np.float64(0.88), np.float64(0.95)], supplier=PR_35
+  REJECT: P_17 @ S_4, day=236, norm=0.800, phases=[np.float64(0.81), np.float64(0.92), np.float64(0.93)], supplier=PR_32
+  REJECT: P_17 @ S_4, day=355, norm=0.798, phases=[np.float64(0.85), np.float64(0.88)], supplier=PR_9
+  REJECT: P_17 @ S_6, day=226, norm=0.794, phases=[np.float64(0.89), np.float64(0.93), np.float64(0.95)], supplier=PR_31
+  REJECT: P_17 @ S_7, day=209, norm=0.783, phases=[np.float64(0.87), np.float64(0.88), np.float64(1.03)], supplier=PR_42
+  REJECT: P_17 @ S_9, day=30, norm=0.799, phases=[np.float64(0.83), np.float64(0.95), np.float64(1.02)], supplier=PR_34
+  REJECT: P_17 @ S_9, day=185, norm=0.757, phases=[np.float64(0.73), np.float64(0.83), np.float64(0.89)], supplier=PR_49
+  REJECT: P_17 @ S_9, day=205, norm=0.800, phases=[np.float64(0.83), np.float64(0.87), np.float64(0.97)], supplier=PR_31
+  REJECT: P_18 @ S_1, day=241, norm=0.799, phases=[np.float64(0.84), np.float64(0.9), np.float64(0.96)], supplier=PR_10
+  REJECT: P_18 @ S_3, day=21, norm=0.792, phases=[np.float64(0.8), np.float64(0.87), np.float64(0.93)], supplier=PR_42
+  REJECT: P_18 @ S_3, day=44, norm=0.795, phases=[np.float64(0.82), np.float64(0.93), np.float64(1.0)], supplier=PR_31
+  REJECT: P_18 @ S_3, day=160, norm=0.737, phases=[np.float64(0.88), np.float64(0.99), np.float64(1.05)], supplier=PR_44
+  REJECT: P_18 @ S_3, day=279, norm=0.762, phases=[np.float64(0.83), np.float64(0.88), np.float64(0.92)], supplier=PR_54
+  REJECT: P_18 @ S_3, day=315, norm=0.786, phases=[np.float64(0.9), np.float64(0.92), np.float64(0.95)], supplier=PR_9
+  REJECT: P_18 @ S_3, day=334, norm=0.792, phases=[np.float64(0.77), np.float64(0.88), np.float64(0.96)], supplier=PR_39
+  REJECT: P_18 @ S_4, day=185, norm=0.794, phases=[np.float64(0.91), np.float64(0.93), np.float64(0.97)], supplier=PR_7
+  REJECT: P_18 @ S_5, day=181, norm=0.765, phases=[np.float64(0.83), np.float64(0.92), np.float64(1.02)], supplier=PR_52
+  REJECT: P_18 @ S_8, day=14, norm=0.752, phases=[np.float64(0.81), np.float64(0.87), np.float64(0.94)], supplier=PR_23
+  REJECT: P_19 @ S_2, day=106, norm=0.764, phases=[np.float64(0.81), np.float64(0.91), np.float64(0.92)], supplier=PR_21
+  REJECT: P_19 @ S_2, day=177, norm=0.797, phases=[np.float64(0.82), np.float64(0.93), np.float64(1.01)], supplier=PR_15
+  REJECT: P_19 @ S_2, day=195, norm=0.781, phases=[np.float64(0.9), np.float64(0.92), np.float64(0.98)], supplier=PR_21
+  REJECT: P_19 @ S_2, day=347, norm=0.773, phases=[np.float64(0.81), np.float64(0.86), np.float64(0.98)], supplier=PR_11
+  REJECT: P_19 @ S_3, day=223, norm=0.734, phases=[np.float64(0.84), np.float64(0.94), np.float64(1.02)], supplier=PR_50
+  REJECT: P_19 @ S_5, day=164, norm=0.798, phases=[np.float64(0.87), np.float64(0.98), np.float64(0.98)], supplier=PR_32
+  REJECT: P_2 @ S_1, day=5, norm=0.781, phases=[np.float64(0.79), np.float64(0.9), np.float64(0.97)], supplier=PR_50
+  REJECT: P_2 @ S_1, day=185, norm=0.791, phases=[np.float64(0.87), np.float64(0.92), np.float64(0.95)], supplier=PR_22
+  REJECT: P_2 @ S_1, day=198, norm=0.729, phases=[np.float64(0.92), np.float64(0.95), np.float64(0.99)], supplier=PR_20
+  REJECT: P_2 @ S_10, day=167, norm=0.794, phases=[np.float64(0.83), np.float64(0.9), np.float64(0.95)], supplier=PR_3
+  REJECT: P_2 @ S_2, day=157, norm=0.795, phases=[np.float64(0.9), np.float64(0.91), np.float64(0.93)], supplier=PR_33
+  REJECT: P_2 @ S_3, day=189, norm=0.705, phases=[np.float64(0.83), np.float64(0.94), np.float64(0.96)], supplier=PR_11
+  REJECT: P_2 @ S_3, day=238, norm=0.768, phases=[np.float64(0.86), np.float64(0.88), np.float64(0.94)], supplier=PR_44
+  REJECT: P_2 @ S_8, day=211, norm=0.727, phases=[np.float64(0.89), np.float64(0.91), np.float64(0.93)], supplier=PR_60
+  REJECT: P_2 @ S_8, day=224, norm=0.770, phases=[np.float64(0.88), np.float64(0.94), np.float64(1.01)], supplier=PR_32
+  REJECT: P_20 @ S_1, day=175, norm=0.771, phases=[np.float64(0.85), np.float64(0.88), np.float64(0.91)], supplier=PR_55
+  REJECT: P_20 @ S_1, day=199, norm=0.778, phases=[np.float64(0.86), np.float64(0.93), np.float64(0.96)], supplier=PR_1
+  REJECT: P_20 @ S_1, day=228, norm=0.763, phases=[np.float64(0.8), np.float64(0.91), np.float64(0.95)], supplier=PR_58
+  REJECT: P_20 @ S_2, day=195, norm=0.784, phases=[np.float64(0.82), np.float64(0.93), np.float64(0.94)], supplier=PR_43
+  REJECT: P_20 @ S_3, day=233, norm=0.787, phases=[np.float64(0.82), np.float64(0.91), np.float64(0.94)], supplier=PR_50
+  REJECT: P_20 @ S_4, day=216, norm=0.785, phases=[np.float64(0.84), np.float64(0.87), np.float64(0.92)], supplier=PR_34
+  REJECT: P_20 @ S_7, day=166, norm=0.750, phases=[np.float64(0.9), np.float64(0.93), np.float64(1.0)], supplier=PR_46
+  REJECT: P_21 @ S_1, day=188, norm=0.793, phases=[np.float64(0.85), np.float64(1.0), np.float64(1.01)], supplier=PR_18
+  REJECT: P_21 @ S_3, day=177, norm=0.798, phases=[np.float64(0.84), np.float64(0.98), np.float64(1.11)], supplier=PR_60
+  REJECT: P_21 @ S_3, day=202, norm=0.677, phases=[np.float64(0.81), np.float64(0.89), np.float64(0.92)], supplier=PR_13
+  REJECT: P_21 @ S_3, day=213, norm=0.766, phases=[np.float64(0.86), np.float64(0.91), np.float64(1.0)], supplier=PR_12
+  REJECT: P_21 @ S_3, day=322, norm=0.761, phases=[np.float64(0.78), np.float64(0.88), np.float64(0.97)], supplier=PR_18
+  REJECT: P_21 @ S_5, day=175, norm=0.757, phases=[np.float64(0.92), np.float64(1.02), np.float64(1.03)], supplier=PR_8
+  REJECT: P_21 @ S_5, day=231, norm=0.749, phases=[np.float64(0.78), np.float64(0.9), np.float64(0.96)], supplier=PR_48
+  REJECT: P_22 @ S_3, day=165, norm=0.791, phases=[np.float64(0.89), np.float64(0.94), np.float64(0.96)], supplier=PR_21
+  REJECT: P_22 @ S_3, day=215, norm=0.796, phases=[np.float64(0.9), np.float64(0.93), np.float64(0.94)], supplier=PR_16
+  REJECT: P_22 @ S_8, day=133, norm=0.792, phases=[np.float64(0.82), np.float64(0.92), np.float64(0.99)], supplier=PR_25
+  REJECT: P_22 @ S_8, day=175, norm=0.760, phases=[np.float64(0.87), np.float64(0.95), np.float64(0.97)], supplier=PR_17
+  REJECT: P_22 @ S_8, day=219, norm=0.707, phases=[np.float64(0.82), np.float64(0.95), np.float64(0.95)], supplier=PR_21
+  REJECT: P_23 @ S_2, day=5, norm=0.792, phases=[np.float64(0.83), np.float64(0.94), np.float64(0.96)], supplier=PR_5
+  REJECT: P_23 @ S_2, day=178, norm=0.794, phases=[np.float64(0.82), np.float64(0.91), np.float64(1.03)], supplier=PR_50
+  REJECT: P_23 @ S_3, day=200, norm=0.783, phases=[np.float64(0.85), np.float64(0.92), np.float64(0.94)], supplier=PR_12
+  REJECT: P_24 @ S_2, day=52, norm=0.798, phases=[np.float64(0.82), np.float64(0.9), np.float64(0.97)], supplier=PR_50
+  REJECT: P_24 @ S_2, day=273, norm=0.780, phases=[np.float64(0.79), np.float64(0.9), np.float64(0.93)], supplier=PR_50
+  REJECT: P_24 @ S_2, day=337, norm=0.789, phases=[np.float64(0.81), np.float64(0.9), np.float64(0.97)], supplier=PR_44
+  REJECT: P_24 @ S_7, day=31, norm=0.796, phases=[np.float64(0.81), np.float64(0.85), np.float64(1.0)], supplier=PR_38
+  REJECT: P_24 @ S_7, day=33, norm=0.770, phases=[np.float64(0.81), np.float64(0.92), np.float64(1.03)], supplier=PR_17
+  REJECT: P_24 @ S_7, day=54, norm=0.739, phases=[np.float64(0.74), np.float64(0.79), np.float64(0.94)], supplier=PR_45
+  REJECT: P_24 @ S_7, day=59, norm=0.760, phases=[np.float64(0.83), np.float64(0.92), np.float64(1.04)], supplier=PR_22
+  REJECT: P_24 @ S_7, day=100, norm=0.772, phases=[np.float64(0.79), np.float64(0.91), np.float64(1.03)], supplier=PR_17
+  REJECT: P_24 @ S_7, day=102, norm=0.760, phases=[np.float64(0.84), np.float64(0.97), np.float64(1.05)], supplier=PR_44
+  REJECT: P_24 @ S_7, day=129, norm=0.735, phases=[np.float64(0.78), np.float64(0.88), np.float64(1.0)], supplier=PR_54
+  REJECT: P_24 @ S_7, day=131, norm=0.745, phases=[np.float64(0.81), np.float64(0.93), np.float64(0.98)], supplier=PR_42
+  REJECT: P_24 @ S_7, day=159, norm=0.672, phases=[np.float64(0.73), np.float64(0.92), np.float64(0.93)], supplier=PR_38
+  REJECT: P_24 @ S_7, day=189, norm=0.728, phases=[np.float64(0.76), np.float64(0.79), np.float64(0.87)], supplier=PR_42
+  REJECT: P_24 @ S_7, day=221, norm=0.734, phases=[np.float64(0.74), np.float64(0.88), np.float64(0.97)], supplier=PR_6
+  REJECT: P_24 @ S_7, day=248, norm=0.736, phases=[np.float64(0.74), np.float64(0.88), np.float64(0.9)], supplier=PR_38
+  REJECT: P_24 @ S_7, day=279, norm=0.718, phases=[np.float64(0.74), np.float64(0.77), np.float64(0.85)], supplier=PR_39
+  REJECT: P_24 @ S_7, day=319, norm=0.762, phases=[np.float64(0.76), np.float64(0.87), np.float64(0.98)], supplier=PR_2
+  REJECT: P_24 @ S_7, day=336, norm=0.785, phases=[np.float64(0.85), np.float64(0.96), np.float64(1.01)], supplier=PR_41
+  REJECT: P_24 @ S_8, day=181, norm=0.754, phases=[np.float64(0.91), np.float64(0.91), np.float64(0.95)], supplier=PR_39
+  REJECT: P_25 @ S_10, day=166, norm=0.736, phases=[np.float64(0.91), np.float64(0.93), np.float64(0.99)], supplier=PR_8
+  REJECT: P_25 @ S_10, day=200, norm=0.741, phases=[np.float64(0.83), np.float64(0.91), np.float64(0.94)], supplier=PR_23
+  REJECT: P_25 @ S_2, day=177, norm=0.792, phases=[np.float64(0.9), np.float64(0.97), np.float64(1.03)], supplier=PR_46
+  REJECT: P_25 @ S_3, day=175, norm=0.744, phases=[np.float64(0.91), np.float64(0.93), np.float64(0.97)], supplier=PR_32
+  REJECT: P_25 @ S_3, day=223, norm=0.789, phases=[np.float64(0.89), np.float64(0.94), np.float64(1.0)], supplier=PR_29
+  REJECT: P_25 @ S_3, day=237, norm=0.748, phases=[np.float64(0.86), np.float64(0.91), np.float64(1.02)], supplier=PR_32
+  REJECT: P_25 @ S_3, day=260, norm=0.791, phases=[np.float64(0.84), np.float64(0.9), np.float64(0.92)], supplier=PR_41
+  REJECT: P_25 @ S_4, day=216, norm=0.747, phases=[np.float64(0.88), np.float64(0.91), np.float64(0.98)], supplier=PR_29
+  REJECT: P_25 @ S_5, day=187, norm=0.751, phases=[np.float64(0.9), np.float64(0.91), np.float64(0.95)], supplier=PR_51
+  REJECT: P_25 @ S_6, day=220, norm=0.707, phases=[np.float64(0.91), np.float64(0.93), np.float64(0.95)], supplier=PR_41
+  REJECT: P_25 @ S_7, day=213, norm=0.740, phases=[np.float64(0.85), np.float64(0.9), np.float64(0.97)], supplier=PR_41
+  REJECT: P_25 @ S_9, day=199, norm=0.776, phases=[np.float64(0.84), np.float64(0.94), np.float64(0.97)], supplier=PR_40
+  REJECT: P_26 @ S_10, day=187, norm=0.687, phases=[np.float64(0.88), np.float64(0.9), np.float64(0.93)], supplier=PR_16
+  REJECT: P_26 @ S_2, day=192, norm=0.752, phases=[np.float64(0.85), np.float64(0.88), np.float64(0.94)], supplier=PR_48
+  REJECT: P_26 @ S_2, day=205, norm=0.771, phases=[np.float64(0.87), np.float64(0.91), np.float64(1.0)], supplier=PR_35
+  REJECT: P_26 @ S_5, day=223, norm=0.795, phases=[np.float64(0.92), np.float64(0.98), np.float64(0.98)], supplier=PR_22
+  REJECT: P_26 @ S_7, day=197, norm=0.792, phases=[np.float64(0.89), np.float64(0.97), np.float64(1.0)], supplier=PR_13
+  REJECT: P_27 @ S_3, day=167, norm=0.730, phases=[np.float64(0.91), np.float64(0.99), np.float64(1.03)], supplier=PR_30
+  REJECT: P_27 @ S_3, day=193, norm=0.786, phases=[np.float64(0.88), np.float64(0.89), np.float64(0.91)], supplier=PR_28
+  REJECT: P_27 @ S_3, day=201, norm=0.793, phases=[np.float64(0.84), np.float64(0.88), np.float64(1.0)], supplier=PR_30
+  REJECT: P_27 @ S_3, day=204, norm=0.770, phases=[np.float64(0.92), np.float64(0.94), np.float64(0.98)], supplier=PR_17
+  REJECT: P_27 @ S_5, day=224, norm=0.762, phases=[np.float64(0.92), np.float64(0.93), np.float64(0.93)], supplier=PR_29
+  REJECT: P_28 @ S_1, day=200, norm=0.779, phases=[np.float64(0.88), np.float64(0.98), np.float64(1.07)], supplier=PR_24
+  REJECT: P_28 @ S_10, day=173, norm=0.761, phases=[np.float64(0.93), np.float64(1.01), np.float64(1.06)], supplier=PR_9
+  REJECT: P_28 @ S_2, day=215, norm=0.779, phases=[np.float64(0.84), np.float64(0.87), np.float64(0.92)], supplier=PR_9
+  REJECT: P_28 @ S_2, day=224, norm=0.722, phases=[np.float64(0.78), np.float64(1.0), np.float64(1.05)], supplier=PR_28
+  REJECT: P_28 @ S_3, day=52, norm=0.795, phases=[np.float64(0.78), np.float64(0.88), np.float64(0.91)], supplier=PR_35
+  REJECT: P_28 @ S_3, day=71, norm=0.761, phases=[np.float64(0.82), np.float64(0.83), np.float64(0.96)], supplier=PR_10
+  REJECT: P_28 @ S_3, day=97, norm=0.732, phases=[np.float64(0.76), np.float64(0.85), np.float64(0.86)], supplier=PR_32
+  REJECT: P_28 @ S_3, day=157, norm=0.727, phases=[np.float64(0.79), np.float64(0.89), np.float64(0.92)], supplier=PR_53
+  REJECT: P_28 @ S_3, day=221, norm=0.615, phases=[np.float64(0.81), np.float64(0.95), np.float64(1.08)], supplier=PR_36
+  REJECT: P_28 @ S_3, day=317, norm=0.749, phases=[np.float64(0.81), np.float64(0.91), np.float64(0.96)], supplier=PR_48
+  REJECT: P_28 @ S_5, day=182, norm=0.780, phases=[np.float64(0.88), np.float64(0.94), np.float64(0.99)], supplier=PR_18
+  REJECT: P_29 @ S_3, day=31, norm=0.759, phases=[np.float64(0.76), np.float64(0.89), np.float64(0.9)], supplier=PR_59
+  REJECT: P_29 @ S_3, day=74, norm=0.771, phases=[np.float64(0.86), np.float64(0.96), np.float64(1.01)], supplier=PR_59
+  REJECT: P_29 @ S_3, day=90, norm=0.771, phases=[np.float64(0.85), np.float64(0.94), np.float64(0.94)], supplier=PR_60
+  REJECT: P_29 @ S_3, day=169, norm=0.778, phases=[np.float64(0.91), np.float64(0.92), np.float64(0.92)], supplier=PR_29
+  REJECT: P_29 @ S_3, day=178, norm=0.797, phases=[np.float64(0.86), np.float64(0.99), np.float64(1.01)], supplier=PR_13
+  REJECT: P_29 @ S_3, day=246, norm=0.740, phases=[np.float64(0.82), np.float64(0.86), np.float64(0.95)], supplier=PR_59
+  REJECT: P_29 @ S_3, day=272, norm=0.759, phases=[np.float64(0.79), np.float64(0.87), np.float64(0.9)], supplier=PR_60
+  REJECT: P_29 @ S_3, day=274, norm=0.798, phases=[np.float64(0.83), np.float64(0.9), np.float64(0.9)], supplier=PR_2
+  REJECT: P_29 @ S_3, day=303, norm=0.664, phases=[np.float64(0.72), np.float64(0.9), np.float64(0.99)], supplier=PR_59
+  REJECT: P_29 @ S_3, day=340, norm=0.734, phases=[np.float64(0.82), np.float64(0.94), np.float64(1.01)], supplier=PR_11
+  REJECT: P_29 @ S_4, day=223, norm=0.797, phases=[np.float64(0.9), np.float64(0.94), np.float64(0.97)], supplier=PR_17
+  REJECT: P_3 @ S_1, day=194, norm=0.783, phases=[np.float64(0.93), np.float64(0.95), np.float64(0.97)], supplier=PR_60
+  REJECT: P_3 @ S_1, day=215, norm=0.791, phases=[np.float64(0.91), np.float64(0.93), np.float64(0.99)], supplier=PR_51
+  REJECT: P_3 @ S_3, day=214, norm=0.713, phases=[np.float64(0.86), np.float64(0.92), np.float64(1.01)], supplier=PR_23
+  REJECT: P_3 @ S_4, day=213, norm=0.795, phases=[np.float64(0.79), np.float64(0.93), np.float64(0.95)], supplier=PR_15
+  REJECT: P_3 @ S_4, day=215, norm=0.758, phases=[np.float64(0.88), np.float64(0.95), np.float64(0.97)], supplier=PR_5
+  REJECT: P_3 @ S_4, day=333, norm=0.767, phases=[np.float64(0.79), np.float64(0.83), np.float64(0.97)], supplier=PR_55
+  REJECT: P_3 @ S_6, day=94, norm=0.789, phases=[np.float64(0.81), np.float64(0.89), np.float64(0.91)], supplier=PR_29
+  REJECT: P_3 @ S_6, day=338, norm=0.747, phases=[np.float64(0.76), np.float64(0.9), np.float64(0.97)], supplier=PR_38
+  REJECT: P_3 @ S_8, day=193, norm=0.797, phases=[np.float64(0.88), np.float64(1.01), np.float64(1.04)], supplier=PR_15
+  REJECT: P_30 @ S_1, day=198, norm=0.790, phases=[np.float64(0.93), np.float64(0.95), np.float64(0.95)], supplier=PR_57
+  REJECT: P_30 @ S_2, day=177, norm=0.776, phases=[np.float64(0.79), np.float64(0.97), np.float64(1.0)], supplier=PR_40
+  REJECT: P_30 @ S_2, day=296, norm=0.785, phases=[np.float64(0.83), np.float64(0.95), np.float64(0.97)], supplier=PR_24
+  REJECT: P_30 @ S_5, day=174, norm=0.797, phases=[np.float64(0.91), np.float64(0.94), np.float64(0.98)], supplier=PR_41
+  REJECT: P_30 @ S_6, day=167, norm=0.753, phases=[np.float64(0.88), np.float64(1.0), np.float64(1.02)], supplier=PR_49
+  REJECT: P_30 @ S_7, day=172, norm=0.762, phases=[np.float64(0.79), np.float64(0.94), np.float64(0.98)], supplier=PR_13
+  REJECT: P_30 @ S_8, day=9, norm=0.790, phases=[np.float64(0.81), np.float64(0.9), np.float64(0.91)], supplier=PR_22
+  REJECT: P_30 @ S_8, day=171, norm=0.768, phases=[np.float64(0.86), np.float64(0.97), np.float64(1.03)], supplier=PR_10
+  REJECT: P_30 @ S_8, day=211, norm=0.749, phases=[np.float64(0.84), np.float64(0.89), np.float64(0.91)], supplier=PR_29
+  REJECT: P_30 @ S_8, day=217, norm=0.740, phases=[np.float64(0.8), np.float64(0.93), np.float64(0.97)], supplier=PR_43
+  REJECT: P_4 @ S_1, day=153, norm=0.782, phases=[np.float64(0.81), np.float64(0.93), np.float64(0.98)], supplier=PR_25
+  REJECT: P_4 @ S_1, day=184, norm=0.784, phases=[np.float64(0.88), np.float64(0.91), np.float64(0.93)], supplier=PR_42
+  REJECT: P_4 @ S_1, day=208, norm=0.728, phases=[np.float64(0.81), np.float64(0.85), np.float64(0.95)], supplier=PR_57
+  REJECT: P_4 @ S_10, day=199, norm=0.772, phases=[np.float64(0.9), np.float64(0.93), np.float64(1.02)], supplier=PR_11
+  REJECT: P_4 @ S_10, day=217, norm=0.795, phases=[np.float64(0.84), np.float64(0.88), np.float64(0.99)], supplier=PR_30
+  REJECT: P_4 @ S_3, day=204, norm=0.735, phases=[np.float64(0.86), np.float64(0.9), np.float64(0.93)], supplier=PR_50
+  REJECT: P_4 @ S_3, day=234, norm=0.727, phases=[np.float64(0.78), np.float64(0.86), np.float64(1.02)], supplier=PR_59
+  REJECT: P_4 @ S_3, day=236, norm=0.799, phases=[np.float64(0.87), np.float64(0.94), np.float64(1.0)], supplier=PR_11
+  REJECT: P_4 @ S_5, day=186, norm=0.715, phases=[np.float64(0.88), np.float64(0.96), np.float64(1.03)], supplier=PR_48
+  REJECT: P_4 @ S_5, day=238, norm=0.790, phases=[np.float64(0.92), np.float64(0.96), np.float64(0.98)], supplier=PR_42
+  REJECT: P_4 @ S_6, day=164, norm=0.776, phases=[np.float64(0.9), np.float64(0.96), np.float64(1.02)], supplier=PR_30
+  REJECT: P_4 @ S_7, day=16, norm=0.765, phases=[np.float64(0.79), np.float64(0.87), np.float64(0.87)], supplier=PR_48
+  REJECT: P_4 @ S_7, day=58, norm=0.720, phases=[np.float64(0.82), np.float64(0.91), np.float64(0.94)], supplier=PR_39
+  REJECT: P_4 @ S_7, day=189, norm=0.778, phases=[np.float64(0.8), np.float64(0.86), np.float64(0.99)], supplier=PR_30
+  REJECT: P_4 @ S_7, day=193, norm=0.698, phases=[np.float64(0.86), np.float64(0.96), np.float64(0.96)], supplier=PR_54
+  REJECT: P_4 @ S_7, day=208, norm=0.792, phases=[np.float64(0.87), np.float64(0.96), np.float64(0.99)], supplier=PR_24
+  REJECT: P_4 @ S_7, day=231, norm=0.654, phases=[np.float64(0.83), np.float64(0.92), np.float64(0.99)], supplier=PR_6
+  REJECT: P_4 @ S_7, day=247, norm=0.768, phases=[np.float64(0.86), np.float64(0.93), np.float64(0.96)], supplier=PR_31
+  REJECT: P_4 @ S_7, day=289, norm=0.780, phases=[np.float64(0.79), np.float64(0.87), np.float64(0.93)], supplier=PR_25
+  REJECT: P_4 @ S_8, day=226, norm=0.769, phases=[np.float64(0.87), np.float64(0.94), np.float64(0.99)], supplier=PR_10
+  REJECT: P_5 @ S_1, day=219, norm=0.782, phases=[np.float64(0.89), np.float64(0.99), np.float64(1.02)], supplier=PR_36
+  REJECT: P_5 @ S_10, day=74, norm=0.786, phases=[np.float64(0.83), np.float64(0.94), np.float64(0.97)], supplier=PR_24
+  REJECT: P_5 @ S_10, day=351, norm=0.759, phases=[np.float64(0.87), np.float64(0.89), np.float64(0.94)], supplier=PR_11
+  REJECT: P_5 @ S_2, day=196, norm=0.748, phases=[np.float64(0.86), np.float64(1.0), np.float64(1.0)], supplier=PR_48
+  REJECT: P_5 @ S_6, day=193, norm=0.757, phases=[np.float64(0.93), np.float64(0.97), np.float64(1.04)], supplier=PR_48
+  REJECT: P_5 @ S_6, day=223, norm=0.794, phases=[np.float64(0.89), np.float64(0.97), np.float64(1.05)], supplier=PR_54
+  REJECT: P_5 @ S_8, day=162, norm=0.754, phases=[np.float64(0.87), np.float64(0.95), np.float64(0.95)], supplier=PR_48
+  REJECT: P_5 @ S_8, day=202, norm=0.704, phases=[np.float64(0.87), np.float64(0.96), np.float64(1.0)], supplier=PR_36
+  REJECT: P_5 @ S_9, day=217, norm=0.774, phases=[np.float64(0.86), np.float64(0.89), np.float64(0.91)], supplier=PR_6
+  REJECT: P_5 @ S_9, day=219, norm=0.783, phases=[np.float64(0.86), np.float64(0.87), np.float64(0.98)], supplier=PR_54
+  REJECT: P_5 @ S_9, day=224, norm=0.785, phases=[np.float64(0.89), np.float64(0.92), np.float64(1.0)], supplier=PR_23
+  REJECT: P_6 @ S_1, day=211, norm=0.785, phases=[np.float64(0.87), np.float64(0.95), np.float64(0.97)], supplier=PR_18
+  REJECT: P_6 @ S_10, day=175, norm=0.776, phases=[np.float64(0.91), np.float64(0.96), np.float64(0.97)], supplier=PR_28
+  REJECT: P_6 @ S_10, day=351, norm=0.782, phases=[np.float64(0.87), np.float64(0.88), np.float64(0.97)], supplier=PR_1
+  REJECT: P_6 @ S_2, day=207, norm=0.796, phases=[np.float64(0.94), np.float64(0.95), np.float64(0.98)], supplier=PR_34
+  REJECT: P_6 @ S_4, day=65, norm=0.795, phases=[np.float64(0.86), np.float64(0.98), np.float64(1.03)], supplier=PR_49
+  REJECT: P_6 @ S_4, day=126, norm=0.782, phases=[np.float64(0.78), np.float64(0.89), np.float64(0.99)], supplier=PR_30
+  REJECT: P_6 @ S_4, day=150, norm=0.755, phases=[np.float64(0.82), np.float64(0.88), np.float64(0.97)], supplier=PR_32
+  REJECT: P_6 @ S_4, day=177, norm=0.711, phases=[np.float64(0.78), np.float64(0.86), np.float64(0.96)], supplier=PR_30
+  REJECT: P_6 @ S_4, day=179, norm=0.693, phases=[np.float64(0.81), np.float64(0.9), np.float64(0.96)], supplier=PR_12
+  REJECT: P_6 @ S_4, day=197, norm=0.723, phases=[np.float64(0.8), np.float64(0.95), np.float64(0.97)], supplier=PR_18
+  REJECT: P_6 @ S_4, day=253, norm=0.768, phases=[np.float64(0.8), np.float64(0.89), np.float64(0.94)], supplier=PR_58
+  REJECT: P_6 @ S_4, day=341, norm=0.776, phases=[np.float64(0.78), np.float64(0.79), np.float64(0.91)], supplier=PR_26
+  REJECT: P_6 @ S_4, day=345, norm=0.766, phases=[np.float64(0.77), np.float64(0.91), np.float64(0.93)], supplier=PR_12
+  REJECT: P_6 @ S_6, day=185, norm=0.784, phases=[np.float64(0.87), np.float64(0.94), np.float64(1.01)], supplier=PR_55
+  REJECT: P_6 @ S_6, day=224, norm=0.779, phases=[np.float64(0.86), np.float64(0.94), np.float64(0.96)], supplier=PR_25
+  REJECT: P_6 @ S_6, day=236, norm=0.647, phases=[np.float64(0.86), np.float64(0.92), np.float64(0.95)], supplier=PR_49
+  REJECT: P_6 @ S_7, day=211, norm=0.756, phases=[np.float64(0.9), np.float64(0.97), np.float64(0.99)], supplier=PR_43
+  REJECT: P_6 @ S_8, day=163, norm=0.772, phases=[np.float64(0.85), np.float64(0.99), np.float64(1.03)], supplier=PR_57
+  REJECT: P_7 @ S_1, day=203, norm=0.800, phases=[np.float64(0.9), np.float64(0.94), np.float64(0.98)], supplier=PR_50
+  REJECT: P_7 @ S_1, day=224, norm=0.740, phases=[np.float64(0.9), np.float64(0.93), np.float64(0.97)], supplier=PR_27
+  REJECT: P_7 @ S_3, day=53, norm=0.720, phases=[np.float64(0.77), np.float64(0.86), np.float64(1.02)], supplier=PR_27
+  REJECT: P_7 @ S_3, day=89, norm=0.768, phases=[np.float64(0.86), np.float64(0.88), np.float64(0.94)], supplier=PR_41
+  REJECT: P_7 @ S_3, day=92, norm=0.749, phases=[np.float64(0.87), np.float64(0.88), np.float64(0.97)], supplier=PR_42
+  REJECT: P_7 @ S_3, day=126, norm=0.785, phases=[np.float64(0.76), np.float64(0.83), np.float64(0.92)], supplier=PR_32
+  REJECT: P_7 @ S_3, day=147, norm=0.760, phases=[np.float64(0.83), np.float64(0.86), np.float64(0.98)], supplier=PR_14
+  REJECT: P_7 @ S_3, day=172, norm=0.765, phases=[np.float64(0.78), np.float64(0.88), np.float64(0.9)], supplier=PR_41
+  REJECT: P_7 @ S_3, day=199, norm=0.783, phases=[np.float64(0.74), np.float64(0.83), np.float64(0.93)], supplier=PR_40
+  REJECT: P_7 @ S_3, day=233, norm=0.783, phases=[np.float64(0.76), np.float64(0.82), np.float64(1.0)], supplier=PR_50
+  REJECT: P_7 @ S_3, day=250, norm=0.680, phases=[np.float64(0.7), np.float64(0.79), np.float64(0.87)], supplier=PR_38
+  REJECT: P_7 @ S_3, day=334, norm=0.772, phases=[np.float64(0.77), np.float64(0.81), np.float64(0.95)], supplier=PR_10
+  REJECT: P_7 @ S_4, day=163, norm=0.768, phases=[np.float64(0.86), np.float64(0.91), np.float64(0.94)], supplier=PR_27
+  REJECT: P_7 @ S_4, day=221, norm=0.692, phases=[np.float64(0.81), np.float64(0.92), np.float64(0.96)], supplier=PR_9
+  REJECT: P_7 @ S_4, day=346, norm=0.781, phases=[np.float64(0.84), np.float64(0.91), np.float64(0.93)], supplier=PR_35
+  REJECT: P_7 @ S_7, day=167, norm=0.753, phases=[np.float64(0.88), np.float64(0.92), np.float64(1.01)], supplier=PR_46
+  REJECT: P_7 @ S_7, day=209, norm=0.727, phases=[np.float64(0.92), np.float64(0.98), np.float64(1.0)], supplier=PR_38
+  REJECT: P_7 @ S_8, day=209, norm=0.752, phases=[np.float64(0.91), np.float64(0.99), np.float64(1.04)], supplier=PR_38
+  REJECT: P_7 @ S_8, day=230, norm=0.792, phases=[np.float64(0.88), np.float64(0.93), np.float64(0.98)], supplier=PR_45
+  REJECT: P_7 @ S_9, day=159, norm=0.777, phases=[np.float64(0.85), np.float64(0.89), np.float64(0.97)], supplier=PR_35
+  REJECT: P_7 @ S_9, day=233, norm=0.778, phases=[np.float64(0.85), np.float64(0.95), np.float64(0.98)], supplier=PR_35
+  REJECT: P_8 @ S_4, day=247, norm=0.778, phases=[np.float64(0.86), np.float64(0.91), np.float64(0.96)], supplier=PR_51
+  REJECT: P_8 @ S_7, day=33, norm=0.750, phases=[np.float64(0.8), np.float64(0.93), np.float64(0.97)], supplier=PR_26
+  REJECT: P_8 @ S_7, day=58, norm=0.769, phases=[np.float64(0.8), np.float64(0.84), np.float64(0.9)], supplier=PR_53
+  REJECT: P_8 @ S_7, day=60, norm=0.800, phases=[np.float64(0.83), np.float64(0.85), np.float64(0.92)], supplier=PR_13
+  REJECT: P_8 @ S_7, day=63, norm=0.795, phases=[np.float64(0.84), np.float64(0.9), np.float64(0.96)], supplier=PR_26
+  REJECT: P_8 @ S_7, day=200, norm=0.694, phases=[np.float64(0.78), np.float64(0.91), np.float64(0.97)], supplier=PR_33
+  REJECT: P_8 @ S_7, day=222, norm=0.679, phases=[np.float64(0.73), np.float64(0.89), np.float64(1.04)], supplier=PR_31
+  REJECT: P_8 @ S_7, day=265, norm=0.744, phases=[np.float64(0.76), np.float64(0.9), np.float64(0.97)], supplier=PR_28
+  REJECT: P_8 @ S_7, day=322, norm=0.780, phases=[np.float64(0.81), np.float64(0.89), np.float64(0.98)], supplier=PR_53
+  REJECT: P_9 @ S_1, day=198, norm=0.793, phases=[np.float64(0.86), np.float64(0.94), np.float64(0.97)], supplier=PR_52
+  REJECT: P_9 @ S_2, day=178, norm=0.795, phases=[np.float64(0.84), np.float64(0.93), np.float64(1.03)], supplier=PR_15
+  REJECT: P_9 @ S_2, day=244, norm=0.781, phases=[np.float64(0.84), np.float64(0.94), np.float64(0.95)], supplier=PR_37
+  REJECT: P_9 @ S_2, day=298, norm=0.799, phases=[np.float64(0.87), np.float64(0.98), np.float64(0.98)], supplier=PR_18
+  REJECT: P_9 @ S_2, day=341, norm=0.702, phases=[np.float64(0.79), np.float64(0.9), np.float64(1.01)], supplier=PR_36
+  REJECT: P_9 @ S_3, day=164, norm=0.787, phases=[np.float64(0.85), np.float64(0.93), np.float64(0.96)], supplier=PR_54
+  REJECT: P_9 @ S_4, day=188, norm=0.710, phases=[np.float64(0.81), np.float64(0.91), np.float64(0.92)], supplier=PR_24
+  REJECT: P_9 @ S_5, day=176, norm=0.674, phases=[np.float64(0.79), np.float64(0.88), np.float64(0.99)], supplier=PR_50
+  REJECT: P_9 @ S_5, day=182, norm=0.767, phases=[np.float64(0.87), np.float64(1.0), np.float64(1.01)], supplier=PR_18
+  REJECT: P_9 @ S_5, day=309, norm=0.790, phases=[np.float64(0.85), np.float64(0.89), np.float64(0.96)], supplier=PR_52
+  REJECT: P_9 @ S_6, day=184, norm=0.767, phases=[np.float64(0.78), np.float64(0.95), np.float64(1.03)], supplier=PR_35
+  REJECT: P_9 @ S_6, day=199, norm=0.797, phases=[np.float64(0.88), np.float64(0.97), np.float64(0.97)], supplier=PR_50
+  REJECT: P_9 @ S_7, day=103, norm=0.789, phases=[np.float64(0.86), np.float64(0.95), np.float64(1.04)], supplier=PR_39
+  REJECT: P_9 @ S_7, day=208, norm=0.797, phases=[np.float64(0.83), np.float64(0.88), np.float64(0.94)], supplier=PR_50
+  REJECT: P_9 @ S_7, day=212, norm=0.718, phases=[np.float64(0.88), np.float64(0.88), np.float64(1.05)], supplier=PR_39
+  REJECT: P_9 @ S_7, day=288, norm=0.780, phases=[np.float64(0.84), np.float64(0.88), np.float64(0.88)], supplier=PR_37
+  REJECT: P_9 @ S_8, day=168, norm=0.787, phases=[np.float64(0.92), np.float64(0.93), np.float64(1.03)], supplier=PR_18
+  REJECT: P_9 @ S_8, day=209, norm=0.733, phases=[np.float64(0.78), np.float64(0.91), np.float64(0.98)], supplier=PR_12
+  REJECT: P_9 @ S_8, day=239, norm=0.786, phases=[np.float64(0.82), np.float64(0.86), np.float64(0.91)], supplier=PR_56
+  REJECT: P_9 @ S_8, day=244, norm=0.681, phases=[np.float64(0.8), np.float64(0.92), np.float64(0.93)], supplier=PR_36
+  REJECT: P_9 @ S_8, day=329, norm=0.778, phases=[np.float64(0.84), np.float64(0.86), np.float64(0.89)], supplier=PR_37
+  REJECT: P_9 @ S_8, day=341, norm=0.762, phases=[np.float64(0.84), np.float64(0.91), np.float64(1.02)], supplier=PR_34
+  REJECT: P_9 @ S_9, day=184, norm=0.787, phases=[np.float64(0.82), np.float64(0.94), np.float64(0.97)], supplier=PR_52
+
+Total rejection events: 359
+
+=== CONFIRMED QUALITY OFFENDERS ===
+  P_1: ['PR_20', 'PR_24', 'PR_29', 'PR_31', 'PR_32', 'PR_33', 'PR_51', 'PR_54', 'PR_57']
+  P_10: ['PR_16', 'PR_19', 'PR_2', 'PR_20', 'PR_36', 'PR_39', 'PR_45', 'PR_50', 'PR_52', 'PR_58', 'PR_60']
+  P_11: ['PR_11', 'PR_16', 'PR_21', 'PR_22', 'PR_35', 'PR_37', 'PR_39']
+  P_12: ['PR_13', 'PR_22', 'PR_36', 'PR_40', 'PR_43', 'PR_46', 'PR_48', 'PR_49', 'PR_7', 'PR_9']
+  P_13: ['PR_10', 'PR_11', 'PR_12', 'PR_14', 'PR_15', 'PR_18', 'PR_3', 'PR_38', 'PR_4', 'PR_40', 'PR_45', 'PR_52', 'PR_6', 'PR_60', 'PR_8']
+  P_14: ['PR_14', 'PR_19', 'PR_34', 'PR_41', 'PR_54']
+  P_15: ['PR_11', 'PR_16', 'PR_17', 'PR_19', 'PR_20', 'PR_21', 'PR_28', 'PR_32', 'PR_33', 'PR_34', 'PR_52', 'PR_53', 'PR_58', 'PR_59']
+  P_16: ['PR_13', 'PR_15', 'PR_41', 'PR_53']
+  P_17: ['PR_31', 'PR_32', 'PR_34', 'PR_35', 'PR_4', 'PR_42', 'PR_49', 'PR_8', 'PR_9']
+  P_18: ['PR_10', 'PR_23', 'PR_31', 'PR_39', 'PR_42', 'PR_44', 'PR_52', 'PR_54', 'PR_7', 'PR_9']
+  P_19: ['PR_11', 'PR_15', 'PR_21', 'PR_32', 'PR_50']
+  P_2: ['PR_11', 'PR_20', 'PR_22', 'PR_3', 'PR_32', 'PR_33', 'PR_44', 'PR_50', 'PR_60']
+  P_20: ['PR_1', 'PR_34', 'PR_43', 'PR_46', 'PR_50', 'PR_55', 'PR_58']
+  P_21: ['PR_12', 'PR_13', 'PR_18', 'PR_48', 'PR_60', 'PR_8']
+  P_22: ['PR_16', 'PR_17', 'PR_21', 'PR_25']
+  P_23: ['PR_12', 'PR_5', 'PR_50']
+  P_24: ['PR_17', 'PR_2', 'PR_22', 'PR_38', 'PR_39', 'PR_41', 'PR_42', 'PR_44', 'PR_45', 'PR_50', 'PR_54', 'PR_6']
+  P_25: ['PR_23', 'PR_29', 'PR_32', 'PR_40', 'PR_41', 'PR_46', 'PR_51', 'PR_8']
+  P_26: ['PR_13', 'PR_16', 'PR_22', 'PR_35', 'PR_48']
+  P_27: ['PR_17', 'PR_28', 'PR_29', 'PR_30']
+  P_28: ['PR_10', 'PR_18', 'PR_24', 'PR_28', 'PR_32', 'PR_35', 'PR_36', 'PR_48', 'PR_53', 'PR_9']
+  P_29: ['PR_11', 'PR_13', 'PR_17', 'PR_2', 'PR_29', 'PR_59', 'PR_60']
+  P_3: ['PR_15', 'PR_23', 'PR_29', 'PR_38', 'PR_5', 'PR_51', 'PR_55', 'PR_60']
+  P_30: ['PR_10', 'PR_13', 'PR_22', 'PR_24', 'PR_29', 'PR_40', 'PR_41', 'PR_43', 'PR_49', 'PR_57']
+  P_4: ['PR_10', 'PR_11', 'PR_24', 'PR_25', 'PR_30', 'PR_31', 'PR_39', 'PR_42', 'PR_48', 'PR_50', 'PR_54', 'PR_57', 'PR_59', 'PR_6']
+  P_5: ['PR_11', 'PR_23', 'PR_24', 'PR_36', 'PR_48', 'PR_54', 'PR_6']
+  P_6: ['PR_1', 'PR_12', 'PR_18', 'PR_25', 'PR_26', 'PR_28', 'PR_30', 'PR_32', 'PR_34', 'PR_43', 'PR_49', 'PR_55', 'PR_57', 'PR_58']
+  P_7: ['PR_10', 'PR_14', 'PR_27', 'PR_32', 'PR_35', 'PR_38', 'PR_40', 'PR_41', 'PR_42', 'PR_45', 'PR_46', 'PR_50', 'PR_9']
+  P_8: ['PR_13', 'PR_26', 'PR_28', 'PR_31', 'PR_33', 'PR_51', 'PR_53']
+  P_9: ['PR_12', 'PR_15', 'PR_18', 'PR_24', 'PR_34', 'PR_35', 'PR_36', 'PR_37', 'PR_39', 'PR_50', 'PR_52', 'PR_54', 'PR_56']
+
+Answer written to /app/answer.json

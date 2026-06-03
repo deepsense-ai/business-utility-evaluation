@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Parse all raw supply-chain sources",
+  "description": "Parse raw_orders, raw_supplier_receipts, raw_wholesaler_receipts, raw_wholesaler_store_receipts (4 formats each) into clean structures: orders[d,s][p], deliv[d,pr][p], wseq[d,pr], sseq/stotal[d,s].",
+  "activeForm": "Parsing raw supply-chain sources",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

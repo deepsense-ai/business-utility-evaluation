@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Attribute rejections to producers; output confirmed",
+  "description": "For each rejection event, trace store FIFO consumption to producer batch(es). Confirmed = producer uniquely attributable to a rejection. Write /app/answer.json per product.",
+  "activeForm": "Attributing rejections to producers",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,111 @@
+{
+    "id": "ff96492f-4737-4bcf-9ec0-e11c5b5dda9d",
+    "task_name": "deepsense.ai/sales_representatives",
+    "trial_name": "sales_representatives__NiyJtEP",
+    "trial_uri": "file:///home/hubert/code/dnb/agent-based-simulation/results/benchmark-sales_representatives-20260602-213609/sales_representatives__NiyJtEP",
+    "task_id": {
+        "path": "tasks/sales_representatives"
+    },
+    "source": null,
+    "task_checksum": "4cfd86c971340c835a824da2946f3cce780831f39afdbe59a1229fad543fac2c",
+    "config": {
+        "task": {
+            "path": "tasks/sales_representatives",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "sales_representatives__NiyJtEP",
+        "trials_dir": "results/benchmark-sales_representatives-20260602-213609",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "claude-code",
+            "import_path": null,
+            "model_name": "anthropic/claude-opus-4-8",
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {
+                "reasoning_effort": "xhigh"
+            },
+            "env": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "job_id": "a16f0df0-9d4f-4cf9-9e6f-076e9c172a0b"
+    },
+    "agent_info": {
+        "name": "claude-code",
+        "version": "2.1.160",
+        "model_info": {
+            "name": "claude-opus-4-8",
+            "provider": "anthropic"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 1454163,
+        "n_cache_tokens": 1380899,
+        "n_output_tokens": 51341,
+        "cost_usd": 2.4289282500000002,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-06-02T20:01:23.392958Z",
+    "finished_at": "2026-06-02T20:15:18.333850Z",
+    "environment_setup": {
+        "started_at": "2026-06-02T20:01:23.396098Z",
+        "finished_at": "2026-06-02T20:01:36.033837Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-06-02T20:01:36.033858Z",
+        "finished_at": "2026-06-02T20:02:11.311926Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-06-02T20:02:11.311986Z",
+        "finished_at": "2026-06-02T20:14:49.925775Z"
+    },
+    "verifier": {
+        "started_at": "2026-06-02T20:14:53.911203Z",
+        "finished_at": "2026-06-02T20:14:57.749320Z"
+    },
+    "step_results": null
+}

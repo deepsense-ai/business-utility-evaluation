@@ -1,0 +1,111 @@
+{
+    "id": "515460cd-e4d9-4fed-a3ed-6b75f3ed6ce2",
+    "task_name": "deepsense.ai/supply_chain",
+    "trial_name": "supply_chain__JJVSZDH",
+    "trial_uri": "file:///home/hubert/code/dnb/agent-based-simulation/results/benchmark-supply_chain-20260602-185628/supply_chain__JJVSZDH",
+    "task_id": {
+        "path": "tasks/supply_chain"
+    },
+    "source": null,
+    "task_checksum": "1f3c7a4798de678af5fa1d0372dcc02a176d65002042dd7a73f6fcf1ff46073f",
+    "config": {
+        "task": {
+            "path": "tasks/supply_chain",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "supply_chain__JJVSZDH",
+        "trials_dir": "results/benchmark-supply_chain-20260602-185628",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "claude-code",
+            "import_path": null,
+            "model_name": "anthropic/claude-opus-4-8",
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {
+                "reasoning_effort": "xhigh"
+            },
+            "env": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "job_id": "d1cf2188-ce2b-4c58-9afc-dcce6af7b47f"
+    },
+    "agent_info": {
+        "name": "claude-code",
+        "version": "2.1.160",
+        "model_info": {
+            "name": "claude-opus-4-8",
+            "provider": "anthropic"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 4038581,
+        "n_cache_tokens": 3850021,
+        "n_output_tokens": 142733,
+        "cost_usd": 6.668692999999998,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.20270270270270271
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-06-02T16:56:34.288724Z",
+    "finished_at": "2026-06-02T17:35:32.088684Z",
+    "environment_setup": {
+        "started_at": "2026-06-02T16:56:35.259761Z",
+        "finished_at": "2026-06-02T16:56:54.152182Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-06-02T16:56:54.152227Z",
+        "finished_at": "2026-06-02T16:57:41.105275Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-06-02T16:57:41.105472Z",
+        "finished_at": "2026-06-02T17:35:05.111474Z"
+    },
+    "verifier": {
+        "started_at": "2026-06-02T17:35:08.791236Z",
+        "finished_at": "2026-06-02T17:35:12.307257Z"
+    },
+    "step_results": null
+}

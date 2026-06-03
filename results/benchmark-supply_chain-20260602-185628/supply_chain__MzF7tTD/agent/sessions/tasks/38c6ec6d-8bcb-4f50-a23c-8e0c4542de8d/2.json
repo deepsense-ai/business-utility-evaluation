@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Simulate wholesaler FIFO and validate",
+  "description": "Simulate producer->wholesaler FIFO queues (per product, ordered by daily sequence) and store fulfillment (brutal first-come by store sequence). Validate reconstructed per-store delivery totals against TOTAL_DELIVERED_UNITS in raw_wholesaler_store_receipts.",
+  "activeForm": "Simulating wholesaler FIFO",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

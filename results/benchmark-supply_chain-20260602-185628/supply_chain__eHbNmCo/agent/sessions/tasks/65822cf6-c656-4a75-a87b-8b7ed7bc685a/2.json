@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Reconstruct wholesaler→store batch allocation",
+  "description": "Build per-product FIFO wholesaler queue (producer batches ordered by daily_sequence_no, carry-over across days). Fulfill stores in store-sequence order brutally. Validate against TOTAL_DELIVERED_UNITS checksum per store-day. Output per (store,product,day) the producer-batch composition delivered.",
+  "activeForm": "Reconstructing wholesaler allocation",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

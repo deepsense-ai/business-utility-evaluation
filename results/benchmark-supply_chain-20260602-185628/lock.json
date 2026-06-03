@@ -1,0 +1,1088 @@
+{
+    "schema_version": 1,
+    "created_at": "2026-06-02T16:56:30.849852Z",
+    "harbor": {
+        "version": "0.8.0",
+        "is_editable": false
+    },
+    "invocation": [
+        "/home/hubert/code/dnb/agent-based-simulation/harbor/.venv/bin/harbor",
+        "run",
+        "-c",
+        "harbor/model-benchmark.yaml",
+        "-p",
+        "tasks/supply_chain",
+        "--env-file",
+        "harbor/.env",
+        "--jobs-dir",
+        "results",
+        "--job-name",
+        "benchmark-supply_chain-20260602-185628"
+    ],
+    "n_concurrent_trials": 10,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "VerifierOutputParseError",
+            "AgentTimeoutError",
+            "VerifierTimeoutError",
+            "RewardFileEmptyError",
+            "RewardFileNotFoundError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "claude-code",
+                "model_name": "anthropic/claude-opus-4-8",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "claude-code",
+                "model_name": "anthropic/claude-sonnet-4-6",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.5",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.4",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "gemini-cli",
+                "model_name": "google/gemini-3.1-pro-preview",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "gemini-cli",
+                "model_name": "google/gemini-3.5-flash",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "claude-code",
+                "model_name": "anthropic/claude-opus-4-8",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "claude-code",
+                "model_name": "anthropic/claude-sonnet-4-6",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.5",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.4",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "gemini-cli",
+                "model_name": "google/gemini-3.1-pro-preview",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "gemini-cli",
+                "model_name": "google/gemini-3.5-flash",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "claude-code",
+                "model_name": "anthropic/claude-opus-4-8",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "claude-code",
+                "model_name": "anthropic/claude-sonnet-4-6",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.5",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.4",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "gemini-cli",
+                "model_name": "google/gemini-3.1-pro-preview",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "gemini-cli",
+                "model_name": "google/gemini-3.5-flash",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "claude-code",
+                "model_name": "anthropic/claude-opus-4-8",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "claude-code",
+                "model_name": "anthropic/claude-sonnet-4-6",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.5",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.4",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "gemini-cli",
+                "model_name": "google/gemini-3.1-pro-preview",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "gemini-cli",
+                "model_name": "google/gemini-3.5-flash",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "claude-code",
+                "model_name": "anthropic/claude-opus-4-8",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "claude-code",
+                "model_name": "anthropic/claude-sonnet-4-6",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.5",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.4",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "gemini-cli",
+                "model_name": "google/gemini-3.1-pro-preview",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:cec14d9b625f7e6b62c5c0a5a5d46c139801a4a20cee739da8dcdb563014e6f0",
+                "path": "tasks/supply_chain"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "gemini-cli",
+                "model_name": "google/gemini-3.5-flash",
+                "skills": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        }
+    ]
+}

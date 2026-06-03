@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Attribute rejections to producers and write answer",
+  "description": "Map each detected rejection onset to the producer(s) whose batch was consumed at that store/product/time. Mark a producer 'confirmed' for a product when attribution is unique/definite. Write /app/answer.json.",
+  "activeForm": "Attributing rejections to producers",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

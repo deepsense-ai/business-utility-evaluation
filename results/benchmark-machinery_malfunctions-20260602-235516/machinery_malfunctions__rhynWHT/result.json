@@ -1,0 +1,111 @@
+{
+    "id": "daff6494-03f8-448c-bb8b-10c4f1c3d32d",
+    "task_name": "deepsense.ai/machinery_malfunctions",
+    "trial_name": "machinery_malfunctions__rhynWHT",
+    "trial_uri": "file:///home/hubert/code/dnb/agent-based-simulation/results/benchmark-machinery_malfunctions-20260602-235516/machinery_malfunctions__rhynWHT",
+    "task_id": {
+        "path": "tasks/machinery_malfunctions"
+    },
+    "source": null,
+    "task_checksum": "bed2b675dc0550d6c4eb84fe0b7471ca9db37d89365705b8ae701b817b5f9ddf",
+    "config": {
+        "task": {
+            "path": "tasks/machinery_malfunctions",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "machinery_malfunctions__rhynWHT",
+        "trials_dir": "results/benchmark-machinery_malfunctions-20260602-235516",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "codex",
+            "import_path": null,
+            "model_name": "openai/gpt-5.4",
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {
+                "reasoning_effort": "xhigh"
+            },
+            "env": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "job_id": "ecd8de07-2d19-40ad-a8b3-8a6dc86e1118"
+    },
+    "agent_info": {
+        "name": "codex",
+        "version": "0.136.0",
+        "model_info": {
+            "name": "gpt-5.4",
+            "provider": "openai"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 3507788,
+        "n_cache_tokens": 3359616,
+        "n_output_tokens": 38005,
+        "cost_usd": 1.7804090000000001,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.5405405405405406
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-06-02T22:25:03.024012Z",
+    "finished_at": "2026-06-02T22:36:05.183691Z",
+    "environment_setup": {
+        "started_at": "2026-06-02T22:25:03.027888Z",
+        "finished_at": "2026-06-02T22:25:22.469148Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-06-02T22:25:22.469169Z",
+        "finished_at": "2026-06-02T22:26:02.887027Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-06-02T22:26:02.887105Z",
+        "finished_at": "2026-06-02T22:35:40.941424Z"
+    },
+    "verifier": {
+        "started_at": "2026-06-02T22:35:44.000584Z",
+        "finished_at": "2026-06-02T22:35:47.053175Z"
+    },
+    "step_results": null
+}

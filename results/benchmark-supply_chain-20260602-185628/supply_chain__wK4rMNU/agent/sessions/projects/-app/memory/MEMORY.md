@@ -1,0 +1,1 @@
+- [Supply-chain quality task](supply-chain-quality-task.md) — how to find confirmed offender producers in /app sim

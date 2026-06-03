@@ -1,0 +1,8 @@
+
+GT:
+{"Barcelona":["Art","Books","Decor"],"Bilbao":["Bags","Formalwear","Women's Shoes"],"Madrid":["Fitness","Garden","Pets"],"Sevilla":["Computers","Consoles","Video Games"],"Valencia":["Bicycles","Furniture","Tools"],"Zaragoza":["Cameras","Collectibles","Musical Instruments"]}
+
+Answer:
+{"Barcelona":["Art","Books","Decor"],"Bilbao":["Formalwear","Women's Shoes"],"Madrid":["Board Games","Fitness","Garden","Jewelry","Pets"],"Sevilla":["Computers","Video Games"],"Valladolid":["Cameras"],"Zaragoza":["Cameras"]}
+
+Reward: 0.5238095238095238
