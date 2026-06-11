@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Reconstruct wholesaler+store FIFO flows and validate",
+  "description": "Simulate wholesaler FIFO intake (producer sequence order) and store fulfillment (store sequence order), validate against TOTAL_DELIVERED_UNITS; then store-level FIFO consumption per consumer purchase, validate against Sold_Quantity/Lost_Sales.",
+  "activeForm": "Reconstructing FIFO flows",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

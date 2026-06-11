@@ -1,0 +1,804 @@
+total 348504
+drwxr-xr-x 1 root root     4096 Jun  1 14:49 .
+drwxr-xr-x 1 root root     4096 Jun 11 11:22 ..
+-rw-r--r-- 1 root root   306347 Jun  1 14:49 competitor_audit_001.csv
+-rw-r--r-- 1 root root   294047 Jun  1 14:49 competitor_audit_002.csv
+-rw-r--r-- 1 root root   323928 Jun  1 14:49 competitor_audit_003.csv
+-rw-r--r-- 1 root root   326808 Jun  1 14:49 competitor_audit_004.csv
+-rw-r--r-- 1 root root   336418 Jun  1 14:49 competitor_audit_005.csv
+-rw-r--r-- 1 root root   313310 Jun  1 14:49 competitor_audit_006.csv
+-rw-r--r-- 1 root root   326840 Jun  1 14:49 competitor_audit_007.csv
+-rw-r--r-- 1 root root   326974 Jun  1 14:49 competitor_audit_008.csv
+-rw-r--r-- 1 root root   322714 Jun  1 14:49 competitor_audit_009.csv
+-rw-r--r-- 1 root root   337845 Jun  1 14:49 competitor_audit_010.csv
+-rw-r--r-- 1 root root   325319 Jun  1 14:49 competitor_audit_011.csv
+-rw-r--r-- 1 root root   338607 Jun  1 14:49 competitor_audit_012.csv
+-rw-r--r-- 1 root root 12276148 Jun  1 14:49 inventory_status_001.csv
+-rw-r--r-- 1 root root 11179888 Jun  1 14:49 inventory_status_002.csv
+-rw-r--r-- 1 root root 12460338 Jun  1 14:49 inventory_status_003.csv
+-rw-r--r-- 1 root root 12343733 Jun  1 14:49 inventory_status_004.csv
+-rw-r--r-- 1 root root 12755963 Jun  1 14:49 inventory_status_005.csv
+-rw-r--r-- 1 root root 12345549 Jun  1 14:49 inventory_status_006.csv
+-rw-r--r-- 1 root root 12756886 Jun  1 14:49 inventory_status_007.csv
+-rw-r--r-- 1 root root 12753164 Jun  1 14:49 inventory_status_008.csv
+-rw-r--r-- 1 root root 12336628 Jun  1 14:49 inventory_status_009.csv
+-rw-r--r-- 1 root root 12745653 Jun  1 14:49 inventory_status_010.csv
+-rw-r--r-- 1 root root 12332622 Jun  1 14:49 inventory_status_011.csv
+-rw-r--r-- 1 root root 12744800 Jun  1 14:49 inventory_status_012.csv
+-rw-r--r-- 1 root root     1365 Jun  1 14:49 product_001.csv
+-rw-r--r-- 1 root root      138 Jun  1 14:49 product_category_001.csv
+-rw-r--r-- 1 root root      790 Jun  1 14:49 promotion_001.csv
+-rw-rw-r-- 1 root root      115 May 25 12:47 requirements.txt
+-rw-r--r-- 1 root root      107 Jun  1 14:49 retail_chain_001.csv
+-rw-r--r-- 1 root root     3741 Jun  1 14:49 sales_rep_001.csv
+-rw-r--r-- 1 root root 11724257 Jun  1 14:49 sales_transaction_001.csv
+-rw-r--r-- 1 root root 10643541 Jun  1 14:49 sales_transaction_002.csv
+-rw-r--r-- 1 root root 11718650 Jun  1 14:49 sales_transaction_003.csv
+-rw-r--r-- 1 root root 11551137 Jun  1 14:49 sales_transaction_004.csv
+-rw-r--r-- 1 root root 12000863 Jun  1 14:49 sales_transaction_005.csv
+-rw-r--r-- 1 root root 11552766 Jun  1 14:49 sales_transaction_006.csv
+-rw-r--r-- 1 root root 11987906 Jun  1 14:49 sales_transaction_007.csv
+-rw-r--r-- 1 root root 12056680 Jun  1 14:49 sales_transaction_008.csv
+-rw-r--r-- 1 root root 11763503 Jun  1 14:49 sales_transaction_009.csv
+-rw-r--r-- 1 root root 12217684 Jun  1 14:49 sales_transaction_010.csv
+-rw-r--r-- 1 root root 11838779 Jun  1 14:49 sales_transaction_011.csv
+-rw-r--r-- 1 root root 12245650 Jun  1 14:49 sales_transaction_012.csv
+-rw-r--r-- 1 root root  2382242 Jun  1 14:49 shelf_audit_001.csv
+-rw-r--r-- 1 root root  2188035 Jun  1 14:49 shelf_audit_002.csv
+-rw-r--r-- 1 root root  2414591 Jun  1 14:49 shelf_audit_003.csv
+-rw-r--r-- 1 root root  2455024 Jun  1 14:49 shelf_audit_004.csv
+-rw-r--r-- 1 root root  2494912 Jun  1 14:49 shelf_audit_005.csv
+-rw-r--r-- 1 root root  2364356 Jun  1 14:49 shelf_audit_006.csv
+-rw-r--r-- 1 root root  2412293 Jun  1 14:49 shelf_audit_007.csv
+-rw-r--r-- 1 root root  2454837 Jun  1 14:49 shelf_audit_008.csv
+-rw-r--r-- 1 root root  2427433 Jun  1 14:49 shelf_audit_009.csv
+-rw-r--r-- 1 root root  2481344 Jun  1 14:49 shelf_audit_010.csv
+-rw-r--r-- 1 root root  2376089 Jun  1 14:49 shelf_audit_011.csv
+-rw-r--r-- 1 root root  2459709 Jun  1 14:49 shelf_audit_012.csv
+-rw-r--r-- 1 root root    31932 Jun  1 14:49 store_001.csv
+-rw-r--r-- 1 root root  1894615 Jun  1 14:49 store_order_001.csv
+-rw-r--r-- 1 root root  1777176 Jun  1 14:49 store_order_002.csv
+-rw-r--r-- 1 root root  1960552 Jun  1 14:49 store_order_003.csv
+-rw-r--r-- 1 root root  1848604 Jun  1 14:49 store_order_004.csv
+-rw-r--r-- 1 root root  1913214 Jun  1 14:49 store_order_005.csv
+-rw-r--r-- 1 root root  1800028 Jun  1 14:49 store_order_006.csv
+-rw-r--r-- 1 root root  1905131 Jun  1 14:49 store_order_007.csv
+-rw-r--r-- 1 root root  1987669 Jun  1 14:49 store_order_008.csv
+-rw-r--r-- 1 root root  1990950 Jun  1 14:49 store_order_009.csv
+-rw-r--r-- 1 root root  2122138 Jun  1 14:49 store_order_010.csv
+-rw-r--r-- 1 root root  2063414 Jun  1 14:49 store_order_011.csv
+-rw-r--r-- 1 root root  2129500 Jun  1 14:49 store_order_012.csv
+-rw-r--r-- 1 root root    14923 Jun  1 14:49 store_promotion_001.csv
+-rw-r--r-- 1 root root       84 Jun  1 14:49 store_promotion_002.csv
+-rw-r--r-- 1 root root     5855 Jun  1 14:49 store_promotion_003.csv
+-rw-r--r-- 1 root root    22111 Jun  1 14:49 store_promotion_004.csv
+-rw-r--r-- 1 root root     9795 Jun  1 14:49 store_promotion_005.csv
+-rw-r--r-- 1 root root     9008 Jun  1 14:49 store_promotion_006.csv
+-rw-r--r-- 1 root root     4990 Jun  1 14:49 store_promotion_007.csv
+-rw-r--r-- 1 root root       84 Jun  1 14:49 store_promotion_008.csv
+-rw-r--r-- 1 root root    34012 Jun  1 14:49 store_promotion_009.csv
+-rw-r--r-- 1 root root    10512 Jun  1 14:49 store_promotion_010.csv
+-rw-r--r-- 1 root root       84 Jun  1 14:49 store_promotion_011.csv
+-rw-r--r-- 1 root root    14777 Jun  1 14:49 store_promotion_012.csv
+-rw-r--r-- 1 root root   381106 Jun  1 14:49 store_traffic_001.csv
+-rw-r--r-- 1 root root   354101 Jun  1 14:49 store_traffic_002.csv
+-rw-r--r-- 1 root root   391711 Jun  1 14:49 store_traffic_003.csv
+-rw-r--r-- 1 root root   378855 Jun  1 14:49 store_traffic_004.csv
+-rw-r--r-- 1 root root   391360 Jun  1 14:49 store_traffic_005.csv
+-rw-r--r-- 1 root root   378679 Jun  1 14:49 store_traffic_006.csv
+-rw-r--r-- 1 root root   397515 Jun  1 14:49 store_traffic_007.csv
+-rw-r--r-- 1 root root   407317 Jun  1 14:49 store_traffic_008.csv
+-rw-r--r-- 1 root root   394385 Jun  1 14:49 store_traffic_009.csv
+-rw-r--r-- 1 root root   407784 Jun  1 14:49 store_traffic_010.csv
+-rw-r--r-- 1 root root   394706 Jun  1 14:49 store_traffic_011.csv
+-rw-r--r-- 1 root root   407838 Jun  1 14:49 store_traffic_012.csv
+-rw-r--r-- 1 root root   442367 Jun  1 14:49 store_visit_001.csv
+-rw-r--r-- 1 root root   404208 Jun  1 14:49 store_visit_002.csv
+-rw-r--r-- 1 root root   441446 Jun  1 14:49 store_visit_003.csv
+-rw-r--r-- 1 root root   441996 Jun  1 14:49 store_visit_004.csv
+-rw-r--r-- 1 root root   456555 Jun  1 14:49 store_visit_005.csv
+-rw-r--r-- 1 root root   426081 Jun  1 14:49 store_visit_006.csv
+-rw-r--r-- 1 root root   441057 Jun  1 14:49 store_visit_007.csv
+-rw-r--r-- 1 root root   446743 Jun  1 14:49 store_visit_008.csv
+-rw-r--r-- 1 root root   441850 Jun  1 14:49 store_visit_009.csv
+-rw-r--r-- 1 root root   450237 Jun  1 14:49 store_visit_010.csv
+-rw-r--r-- 1 root root   430220 Jun  1 14:49 store_visit_011.csv
+-rw-r--r-- 1 root root   450382 Jun  1 14:49 store_visit_012.csv
+==> /app/competitor_audit_001.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+1,1,PrimeChoice,21,False
+2,2,QuickBuy,9,False
+3,3,PrimeChoice,17,False
+4,3,QuickBuy,6,False
+
+==> /app/competitor_audit_002.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+10768,5751,PrimeChoice,5,False
+10769,5751,QuickBuy,18,False
+10770,5752,ValueMax,13,False
+10771,5752,ValueMax,5,False
+
+==> /app/competitor_audit_003.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+20620,10980,ValueMax,20,False
+20621,10981,QuickBuy,16,True
+20622,10981,PrimeChoice,22,True
+20623,10981,NovaGoods,12,False
+
+==> /app/competitor_audit_004.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+31192,16632,NovaGoods,7,False
+31193,16632,QuickBuy,15,False
+31194,16634,QuickBuy,26,False
+31195,16635,ValueMax,26,True
+
+==> /app/competitor_audit_005.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+41860,22289,PrimeChoice,17,False
+41861,22290,PrimeChoice,26,False
+41862,22290,PrimeChoice,13,False
+41863,22291,NovaGoods,14,False
+
+==> /app/competitor_audit_006.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+52838,28131,PrimeChoice,20,False
+52839,28131,QuickBuy,13,False
+52840,28132,PrimeChoice,20,False
+52841,28132,QuickBuy,8,False
+
+==> /app/competitor_audit_007.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+63057,33587,QuickBuy,22,False
+63058,33587,PrimeChoice,17,True
+63059,33588,ValueMax,17,False
+63060,33588,NovaGoods,13,False
+
+==> /app/competitor_audit_008.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+73718,39238,QuickBuy,13,False
+73719,39238,PrimeChoice,16,True
+73720,39238,ValueMax,13,True
+73721,39239,NovaGoods,23,False
+
+==> /app/competitor_audit_009.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+84383,44951,QuickBuy,23,False
+84384,44951,QuickBuy,5,False
+84385,44951,QuickBuy,9,False
+84386,44952,NovaGoods,20,False
+
+==> /app/competitor_audit_010.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+94922,50606,QuickBuy,20,True
+94923,50606,PrimeChoice,22,True
+94924,50606,PrimeChoice,14,False
+94925,50607,NovaGoods,15,False
+
+==> /app/competitor_audit_011.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+105750,56370,PrimeChoice,25,False
+105751,56371,QuickBuy,25,False
+105752,56372,QuickBuy,15,False
+105753,56372,QuickBuy,5,False
+
+==> /app/competitor_audit_012.csv <==
+competitor_audit_id,visit_id,competitor_brand,competitor_facings,competitor_promotion
+116032,61873,NovaGoods,19,False
+116033,61873,ValueMax,24,False
+116034,61873,NovaGoods,6,False
+116035,61874,NovaGoods,26,False
+
+==> /app/inventory_status_001.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+1,1,1,2025-01-01,215,False
+2,1,2,2025-01-01,151,False
+3,1,3,2025-01-01,26,False
+4,1,4,2025-01-01,23,False
+
+==> /app/inventory_status_002.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+372001,1,1,2025-02-01,133,False
+372002,1,2,2025-02-01,89,False
+372003,1,3,2025-02-01,8,False
+372004,1,4,2025-02-01,13,False
+
+==> /app/inventory_status_003.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+708001,1,1,2025-03-01,124,False
+708002,1,2,2025-03-01,142,False
+708003,1,3,2025-03-01,10,False
+708004,1,4,2025-03-01,10,False
+
+==> /app/inventory_status_004.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+1080001,1,1,2025-04-01,136,False
+1080002,1,2,2025-04-01,91,False
+1080003,1,3,2025-04-01,13,False
+1080004,1,4,2025-04-01,2,False
+
+==> /app/inventory_status_005.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+1440001,1,1,2025-05-01,101,False
+1440002,1,2,2025-05-01,84,False
+1440003,1,3,2025-05-01,7,False
+1440004,1,4,2025-05-01,6,False
+
+==> /app/inventory_status_006.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+1812001,1,1,2025-06-01,59,False
+1812002,1,2,2025-06-01,115,False
+1812003,1,3,2025-06-01,3,False
+1812004,1,4,2025-06-01,11,False
+
+==> /app/inventory_status_007.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+2172001,1,1,2025-07-01,140,False
+2172002,1,2,2025-07-01,81,False
+2172003,1,3,2025-07-01,13,False
+2172004,1,4,2025-07-01,21,False
+
+==> /app/inventory_status_008.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+2544001,1,1,2025-08-01,169,False
+2544002,1,2,2025-08-01,85,False
+2544003,1,3,2025-08-01,12,False
+2544004,1,4,2025-08-01,13,False
+
+==> /app/inventory_status_009.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+2916001,1,1,2025-09-01,158,False
+2916002,1,2,2025-09-01,19,False
+2916003,1,3,2025-09-01,5,False
+2916004,1,4,2025-09-01,22,False
+
+==> /app/inventory_status_010.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+3276001,1,1,2025-10-01,181,False
+3276002,1,2,2025-10-01,118,False
+3276003,1,3,2025-10-01,18,False
+3276004,1,4,2025-10-01,14,False
+
+==> /app/inventory_status_011.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+3648001,1,1,2025-11-01,152,False
+3648002,1,2,2025-11-01,94,False
+3648003,1,3,2025-11-01,8,False
+3648004,1,4,2025-11-01,9,False
+
+==> /app/inventory_status_012.csv <==
+inventory_id,store_id,product_id,inventory_date,stock_units,out_of_stock
+4008001,1,1,2025-12-01,93,False
+4008002,1,2,2025-12-01,97,False
+4008003,1,3,2025-12-01,21,False
+4008004,1,4,2025-12-01,10,False
+
+==> /app/product_001.csv <==
+product_id,category_id,sku,product_name,brand,package_type,unit_price
+1,1,SKU-0001,BrightWay Beverage 01,BrightWay,can,4.06
+2,2,SKU-0002,BrightWay Snack 02,BrightWay,box,3.11
+3,3,SKU-0003,BrightWay Personal Care 03,BrightWay,box,4.07
+4,4,SKU-0004,NorthStar Household 04,NorthStar,pouch,11.07
+
+==> /app/product_category_001.csv <==
+category_id,category_name,department
+1,Beverages,Core Grocery
+2,Snacks,Core Grocery
+3,Personal Care,Core Grocery
+4,Household,Core Grocery
+
+==> /app/promotion_001.csv <==
+promotion_id,promotion_name,promotion_type,start_date,end_date
+1,Endcap Feature Campaign 01,endcap_feature,2025-01-01,2025-01-16
+2,Loyalty Coupon Campaign 02,loyalty_coupon,2025-01-31,2025-02-20
+3,Price Cut Campaign 03,price_cut,2025-03-06,2025-04-01
+4,Loyalty Coupon Campaign 04,loyalty_coupon,2025-04-05,2025-05-07
+
+==> /app/retail_chain_001.csv <==
+retail_chain_id,chain_name,country,headquarters_region
+1,Meridian Franchise Stores,United States,Region_01
+
+==> /app/sales_rep_001.csv <==
+rep_id,first_name,last_name,region,hire_date
+1,Rowan,Diaz,Region_01,2020-08-18
+2,Riley,Jensen,Region_01,2020-07-28
+3,Riley,Silva,Region_01,2022-06-11
+4,Blake,Adams,Region_01,2023-07-29
+
+==> /app/sales_transaction_001.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+1,1,1,2025-01-01,24,97.44,0.0
+2,1,2,2025-01-01,20,62.2,0.0
+3,1,3,2025-01-01,4,16.28,0.0
+4,1,4,2025-01-01,1,11.07,0.0
+
+==> /app/sales_transaction_002.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+323564,1,1,2025-02-01,28,113.68,0.0
+323565,1,2,2025-02-01,28,87.08,0.0
+323566,1,3,2025-02-01,7,28.49,0.0
+323567,1,4,2025-02-01,5,55.35,0.0
+
+==> /app/sales_transaction_003.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+614654,1,1,2025-03-01,36,146.16,0.0
+614655,1,2,2025-03-01,16,49.76,0.0
+614656,1,3,2025-03-01,3,12.21,0.0
+614657,1,4,2025-03-01,2,22.14,0.0
+
+==> /app/sales_transaction_004.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+935335,1,1,2025-04-01,15,60.9,0.0
+935336,1,2,2025-04-01,24,74.64,0.0
+935337,1,3,2025-04-01,4,16.28,0.0
+935338,1,5,2025-04-01,0,0.0,0.0
+
+==> /app/sales_transaction_005.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+1244930,1,1,2025-05-01,19,77.14,0.0
+1244931,1,2,2025-05-01,17,52.87,0.0
+1244932,1,4,2025-05-01,5,55.35,0.0
+1244933,1,5,2025-05-01,25,70.75,0.0
+
+==> /app/sales_transaction_006.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+1564489,1,1,2025-06-01,21,85.26,0.0
+1564490,1,2,2025-06-01,14,43.54,0.0
+1564491,1,3,2025-06-01,1,4.07,0.0
+1564492,1,4,2025-06-01,4,44.28,0.0
+
+==> /app/sales_transaction_007.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+1872280,1,1,2025-07-01,28,113.68,0.0
+1872281,1,2,2025-07-01,19,59.09,0.0
+1872282,1,3,2025-07-01,1,4.07,0.0
+1872283,1,4,2025-07-01,2,22.14,0.0
+
+==> /app/sales_transaction_008.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+2191613,1,1,2025-08-01,32,129.92,0.0
+2191614,1,2,2025-08-01,27,83.97,0.0
+2191615,1,3,2025-08-01,6,24.42,0.0
+2191616,1,4,2025-08-01,4,44.28,0.0
+
+==> /app/sales_transaction_009.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+2512733,1,1,2025-09-01,18,73.08,0.0
+2512734,1,2,2025-09-01,12,37.32,0.0
+2512735,1,3,2025-09-01,2,8.14,0.0
+2512736,1,4,2025-09-01,1,11.07,0.0
+
+==> /app/sales_transaction_010.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+2825564,1,1,2025-10-01,30,121.8,0.0
+2825565,1,2,2025-10-01,25,77.75,0.0
+2825566,1,3,2025-10-01,3,12.21,0.0
+2825567,1,4,2025-10-01,1,11.07,0.0
+
+==> /app/sales_transaction_011.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+3150596,1,1,2025-11-01,30,121.8,0.0
+3150597,1,2,2025-11-01,21,65.31,0.0
+3150598,1,3,2025-11-01,2,8.14,0.0
+3150599,1,4,2025-11-01,3,33.21,0.0
+
+==> /app/sales_transaction_012.csv <==
+sales_id,store_id,product_id,sales_date,units_sold,revenue,promo_price
+3465571,1,1,2025-12-01,35,142.1,0.0
+3465572,1,2,2025-12-01,16,49.76,0.0
+3465573,1,3,2025-12-01,2,8.14,0.0
+3465574,1,4,2025-12-01,1,11.07,0.0
+
+==> /app/shelf_audit_001.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+1,1,20,13,102.87,bottom,False,False,False,False,True
+2,1,5,14,128.01,eye_level,False,False,False,False,True
+3,1,9,17,143.8,eye_level,False,False,True,True,True
+4,1,22,15,157.98,middle,True,True,False,False,True
+
+==> /app/shelf_audit_002.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+41585,5751,4,6,50.94,middle,False,False,False,True,True
+41586,5751,20,10,80.32,middle,False,False,False,False,False
+41587,5751,12,8,89.93,eye_level,True,False,True,True,True
+41588,5751,3,7,65.78,eye_level,False,True,True,True,True
+
+==> /app/shelf_audit_003.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+79372,10980,6,5,58.7,eye_level,False,False,False,True,True
+79373,10980,2,14,141.09,eye_level,True,False,True,True,True
+79374,10980,14,9,104.08,eye_level,True,True,False,False,True
+79375,10980,24,8,86.11,top,False,True,True,True,False
+
+==> /app/shelf_audit_004.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+120143,16632,13,11,128.5,bottom,False,False,True,True,True
+120144,16632,7,8,94.79,middle,False,False,True,False,True
+120145,16632,15,8,85.22,eye_level,False,False,True,False,True
+120146,16632,23,10,100.7,eye_level,True,False,False,False,True
+
+==> /app/shelf_audit_005.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+161252,22289,2,14,126.69,eye_level,True,True,True,False,True
+161253,22289,10,9,78.35,eye_level,False,False,False,True,True
+161254,22289,23,13,97.53,eye_level,True,True,True,False,True
+161255,22289,20,9,82.32,eye_level,True,True,False,True,True
+
+==> /app/shelf_audit_006.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+203000,28131,16,7,73.33,middle,True,False,True,False,True
+203001,28131,13,15,141.45,top,False,False,True,False,True
+203002,28131,9,16,144.65,eye_level,True,True,True,False,False
+203003,28131,1,13,128.15,middle,False,False,True,True,True
+
+==> /app/shelf_audit_007.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+242583,33587,11,6,58.14,eye_level,False,False,True,True,True
+242584,33587,19,7,74.91,eye_level,False,False,True,False,True
+242585,33587,16,6,47.01,eye_level,False,False,True,True,True
+242586,33587,10,7,63.28,middle,False,False,True,False,True
+
+==> /app/shelf_audit_008.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+282962,39238,10,6,49.79,eye_level,False,False,False,False,True
+282963,39238,6,6,57.08,middle,True,False,True,True,True
+282964,39238,21,9,94.56,eye_level,True,False,False,False,False
+282965,39238,9,11,104.45,eye_level,True,False,True,True,True
+
+==> /app/shelf_audit_009.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+324061,44951,2,10,94.15,top,True,True,True,True,True
+324062,44951,18,12,122.14,eye_level,False,True,False,True,True
+324063,44951,19,10,105.35,middle,True,True,True,True,True
+324064,44951,4,8,79.79,eye_level,True,False,True,True,True
+
+==> /app/shelf_audit_010.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+364689,50606,8,16,139.68,eye_level,False,False,False,True,True
+364690,50606,20,14,128.46,middle,False,False,True,True,True
+364691,50606,19,9,77.33,middle,False,False,False,True,True
+364692,50606,23,14,135.22,eye_level,True,True,True,True,True
+
+==> /app/shelf_audit_011.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+406217,56370,4,8,75.43,eye_level,False,False,True,True,True
+406218,56370,20,12,98.98,middle,True,False,False,True,True
+406219,56370,11,6,68.21,bottom,True,False,True,False,True
+406220,56370,23,15,169.82,bottom,True,False,True,True,True
+
+==> /app/shelf_audit_012.csv <==
+audit_id,visit_id,product_id,facings,shelf_width_cm,shelf_level,endcap_display,checkout_display,promo_stand,pos_materials,planogram_compliance
+446006,61873,20,10,103.27,middle,False,False,True,True,False
+446007,61873,15,6,61.76,eye_level,False,True,False,True,True
+446008,61873,5,16,149.59,middle,True,True,True,False,True
+446009,61873,11,7,70.63,eye_level,False,False,True,True,False
+
+==> /app/store_001.csv <==
+store_id,retail_chain_id,store_name,store_type,region,location,store_size_sqm
+1,1,Region 01 Discount 001,discount,Region_01,town,1210
+2,1,Region 01 Local Shop 002,local_shop,Region_01,village,153
+3,1,Region 01 Local Shop 003,local_shop,Region_01,village,325
+4,1,Region 01 Discount 004,discount,Region_01,city,647
+
+==> /app/store_order_001.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+1,43,19,2025-01-01,3,2025-01-03
+2,46,11,2025-01-01,3,2025-01-02
+3,71,4,2025-01-01,9,2025-01-04
+4,178,19,2025-01-01,4,2025-01-02
+
+==> /app/store_order_002.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+50792,1,2,2025-02-01,100,2025-02-04
+50793,1,4,2025-02-01,15,2025-02-04
+50794,1,6,2025-02-01,85,2025-02-04
+50795,1,12,2025-02-01,24,2025-02-05
+
+==> /app/store_order_003.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+98160,1,3,2025-03-01,16,2025-03-02
+98161,1,4,2025-03-01,12,2025-03-04
+98162,1,14,2025-03-01,90,2025-03-03
+98163,1,16,2025-03-01,23,2025-03-02
+
+==> /app/store_order_004.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+149103,1,12,2025-04-01,21,2025-04-03
+149104,1,13,2025-04-01,135,2025-04-03
+149105,1,18,2025-04-01,82,2025-04-04
+149106,2,17,2025-04-01,18,2025-04-05
+
+==> /app/store_order_005.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+197100,1,13,2025-05-01,137,2025-05-02
+197101,1,18,2025-05-01,85,2025-05-04
+197102,2,11,2025-05-01,3,2025-05-05
+197103,2,21,2025-05-01,10,2025-05-04
+
+==> /app/store_order_006.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+246774,1,4,2025-06-01,16,2025-06-03
+246775,1,8,2025-06-01,24,2025-06-08
+246776,1,15,2025-06-01,32,2025-06-02
+246777,3,6,2025-06-01,12,2025-06-04
+
+==> /app/store_order_007.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+293506,1,2,2025-07-01,99,2025-07-03
+293507,1,19,2025-07-01,12,2025-07-05
+293508,2,6,2025-07-01,9,2025-07-03
+293509,3,6,2025-07-01,14,2025-07-03
+
+==> /app/store_order_008.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+342967,1,2,2025-08-01,103,2025-08-05
+342968,1,3,2025-08-01,17,2025-08-02
+342969,1,7,2025-08-01,29,2025-08-05
+342970,1,8,2025-08-01,27,2025-08-02
+
+==> /app/store_order_009.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+394566,1,5,2025-09-01,140,2025-09-04
+394567,1,10,2025-09-01,85,2025-09-05
+394568,1,12,2025-09-01,24,2025-09-04
+394569,2,3,2025-09-01,3,2025-09-04
+
+==> /app/store_order_010.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+446256,1,8,2025-10-01,26,2025-10-05
+446257,1,10,2025-10-01,86,2025-10-05
+446258,1,20,2025-10-01,25,2025-10-02
+446259,1,23,2025-10-01,33,2025-10-05
+
+==> /app/store_order_011.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+501352,1,4,2025-11-01,15,2025-11-02
+501353,1,10,2025-11-01,82,2025-11-05
+501354,1,15,2025-11-01,37,2025-11-05
+501355,1,17,2025-11-01,139,2025-11-03
+
+==> /app/store_order_012.csv <==
+order_id,store_id,product_id,order_date,ordered_units,delivery_date
+554921,1,1,2025-12-01,150,2025-12-05
+554922,1,7,2025-12-01,25,2025-12-05
+554923,1,11,2025-12-01,17,2025-12-02
+554924,1,13,2025-12-01,156,2025-12-06
+
+==> /app/store_promotion_001.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+1,167,1,8,False,3.0
+2,167,1,5,False,2.41
+3,167,1,20,False,10.94
+4,135,1,8,False,3.0
+
+==> /app/store_promotion_002.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+
+==> /app/store_promotion_003.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+660,304,3,6,False,4.45
+661,304,3,18,False,2.96
+662,244,3,6,True,4.45
+663,244,3,18,True,2.96
+
+==> /app/store_promotion_004.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+914,194,4,22,False,1.0
+915,194,4,3,False,3.24
+916,194,4,23,False,8.45
+917,178,4,22,True,1.0
+
+==> /app/store_promotion_005.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+1855,393,6,5,False,2.51
+1856,393,6,7,False,8.43
+1857,393,6,12,False,4.97
+1858,133,6,5,True,2.51
+
+==> /app/store_promotion_006.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+2269,385,7,7,False,8.51
+2270,385,7,13,False,1.81
+2271,385,7,21,False,2.58
+2272,385,7,19,False,10.28
+
+==> /app/store_promotion_007.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+2637,367,8,12,True,4.63
+2638,367,8,10,True,2.63
+2639,29,8,12,True,4.63
+2640,29,8,10,True,2.63
+
+==> /app/store_promotion_008.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+
+==> /app/store_promotion_009.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+2841,246,9,8,True,3.07
+2842,246,9,6,True,4.61
+2843,246,9,5,True,2.46
+2844,246,9,18,True,3.07
+
+==> /app/store_promotion_010.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+4256,180,11,9,False,1.39
+4257,180,11,7,False,7.83
+4258,180,11,8,False,2.91
+4259,180,11,1,False,3.35
+
+==> /app/store_promotion_011.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+
+==> /app/store_promotion_012.csv <==
+store_promotion_id,store_id,promotion_id,product_id,display_active,discounted_price
+4688,401,12,8,False,2.73
+4689,401,12,16,False,8.6
+4690,401,12,11,False,10.15
+4691,401,12,15,False,7.91
+
+==> /app/store_traffic_001.csv <==
+traffic_id,store_id,traffic_date,customer_count
+1,1,2025-01-01,1446
+2,2,2025-01-01,162
+3,3,2025-01-01,326
+4,4,2025-01-01,1820
+
+==> /app/store_traffic_002.csv <==
+traffic_id,store_id,traffic_date,customer_count
+15501,1,2025-02-01,2238
+15502,2,2025-02-01,207
+15503,3,2025-02-01,302
+15504,4,2025-02-01,1648
+
+==> /app/store_traffic_003.csv <==
+traffic_id,store_id,traffic_date,customer_count
+29501,1,2025-03-01,1519
+29502,2,2025-03-01,251
+29503,3,2025-03-01,399
+29504,4,2025-03-01,1714
+
+==> /app/store_traffic_004.csv <==
+traffic_id,store_id,traffic_date,customer_count
+45001,1,2025-04-01,1225
+45002,2,2025-04-01,178
+45003,3,2025-04-01,218
+45004,4,2025-04-01,1412
+
+==> /app/store_traffic_005.csv <==
+traffic_id,store_id,traffic_date,customer_count
+60001,1,2025-05-01,1474
+60002,2,2025-05-01,215
+60003,3,2025-05-01,284
+60004,4,2025-05-01,1318
+
+==> /app/store_traffic_006.csv <==
+traffic_id,store_id,traffic_date,customer_count
+75501,1,2025-06-01,1343
+75502,2,2025-06-01,122
+75503,3,2025-06-01,225
+75504,4,2025-06-01,1219
+
+==> /app/store_traffic_007.csv <==
+traffic_id,store_id,traffic_date,customer_count
+90501,1,2025-07-01,1239
+90502,2,2025-07-01,195
+90503,3,2025-07-01,214
+90504,4,2025-07-01,1095
+
+==> /app/store_traffic_008.csv <==
+traffic_id,store_id,traffic_date,customer_count
+106001,1,2025-08-01,2203
+106002,2,2025-08-01,201
+106003,3,2025-08-01,267
+106004,4,2025-08-01,1397
+
+==> /app/store_traffic_009.csv <==
+traffic_id,store_id,traffic_date,customer_count
+121501,1,2025-09-01,1252
+121502,2,2025-09-01,157
+121503,3,2025-09-01,174
+121504,4,2025-09-01,842
+
+==> /app/store_traffic_010.csv <==
+traffic_id,store_id,traffic_date,customer_count
+136501,1,2025-10-01,1568
+136502,2,2025-10-01,245
+136503,3,2025-10-01,309
+136504,4,2025-10-01,1248
+
+==> /app/store_traffic_011.csv <==
+traffic_id,store_id,traffic_date,customer_count
+152001,1,2025-11-01,2159
+152002,2,2025-11-01,299
+152003,3,2025-11-01,373
+152004,4,2025-11-01,1535
+
+==> /app/store_traffic_012.csv <==
+traffic_id,store_id,traffic_date,customer_count
+167001,1,2025-12-01,1494
+167002,2,2025-12-01,166
+167003,3,2025-12-01,242
+167004,4,2025-12-01,1500
+
+==> /app/store_visit_001.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+1,481,100,2025-01-01T08:45:00,2025-01-01T09:32:00,47,audit,False,True
+2,299,60,2025-01-01T08:30:00,2025-01-01T09:53:00,83,order_support,False,True
+3,374,74,2025-01-01T08:10:00,2025-01-01T09:29:00,79,promo_setup,True,True
+4,276,57,2025-01-01T12:39:00,2025-01-01T13:14:00,35,promo_setup,False,True
+
+==> /app/store_visit_002.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+5751,44,10,2025-02-01T08:39:00,2025-02-01T10:09:00,90,merchandising,False,True
+5752,249,50,2025-02-01T11:27:00,2025-02-01T12:00:00,33,promo_setup,False,True
+5753,277,60,2025-02-01T13:11:00,2025-02-01T14:49:00,98,order_support,True,True
+5754,321,62,2025-02-01T08:26:00,2025-02-01T09:39:00,73,promo_setup,True,True
+
+==> /app/store_visit_003.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+10980,126,27,2025-03-01T08:58:00,2025-03-01T09:53:00,55,merchandising,False,True
+10981,28,7,2025-03-01T11:14:00,2025-03-01T12:42:00,88,order_support,True,True
+10982,298,60,2025-03-01T13:06:00,2025-03-01T13:32:00,26,promo_setup,False,True
+10983,101,24,2025-03-01T15:09:00,2025-03-01T16:31:00,82,audit,False,True
+
+==> /app/store_visit_004.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+16632,13,2,2025-04-01T11:58:00,2025-04-01T12:31:00,33,promo_setup,False,True
+16633,442,90,2025-04-01T15:55:00,2025-04-01T15:55:00,0,audit,False,False
+16634,295,57,2025-04-01T11:22:00,2025-04-01T11:49:00,27,audit,False,True
+16635,101,24,2025-04-01T15:40:00,2025-04-01T17:37:00,117,promo_setup,False,True
+
+==> /app/store_visit_005.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+22289,272,52,2025-05-01T13:39:00,2025-05-01T15:01:00,82,promo_setup,False,True
+22290,287,60,2025-05-01T10:02:00,2025-05-01T10:55:00,53,merchandising,False,True
+22291,304,62,2025-05-01T11:21:00,2025-05-01T12:28:00,67,audit,False,True
+22292,187,37,2025-05-01T12:17:00,2025-05-01T13:53:00,96,order_support,True,True
+
+==> /app/store_visit_006.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+28131,11,3,2025-06-01T14:23:00,2025-06-01T15:47:00,84,order_support,False,True
+28132,197,37,2025-06-01T12:26:00,2025-06-01T14:23:00,117,merchandising,False,True
+28133,298,58,2025-06-01T11:37:00,2025-06-01T12:04:00,27,merchandising,False,True
+28134,421,85,2025-06-01T13:07:00,2025-06-01T13:59:00,52,audit,False,True
+
+==> /app/store_visit_007.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+33587,322,63,2025-07-01T12:40:00,2025-07-01T14:09:00,89,order_support,False,True
+33588,475,95,2025-07-01T14:34:00,2025-07-01T15:04:00,30,merchandising,False,True
+33589,273,52,2025-07-01T08:31:00,2025-07-01T09:48:00,77,audit,True,True
+33590,226,48,2025-07-01T13:54:00,2025-07-01T14:32:00,38,promo_setup,False,True
+
+==> /app/store_visit_008.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+39238,46,10,2025-08-01T09:13:00,2025-08-01T09:58:00,45,order_support,False,True
+39239,457,93,2025-08-01T10:30:00,2025-08-01T11:24:00,54,audit,True,True
+39240,302,61,2025-08-01T12:34:00,2025-08-01T13:23:00,49,order_support,False,True
+39241,127,27,2025-08-01T11:02:00,2025-08-01T12:32:00,90,order_support,False,True
+
+==> /app/store_visit_009.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+44951,61,12,2025-09-01T12:44:00,2025-09-01T13:17:00,33,merchandising,False,True
+44952,136,27,2025-09-01T12:55:00,2025-09-01T13:26:00,31,merchandising,False,True
+44953,282,60,2025-09-01T12:11:00,2025-09-01T12:38:00,27,order_support,False,True
+44954,296,57,2025-09-01T11:15:00,2025-09-01T12:09:00,54,merchandising,False,True
+
+==> /app/store_visit_010.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+50606,300,56,2025-10-01T12:20:00,2025-10-01T13:37:00,77,promo_setup,True,True
+50607,409,81,2025-10-01T12:52:00,2025-10-01T13:19:00,27,merchandising,False,True
+50608,441,87,2025-10-01T13:38:00,2025-10-01T14:08:00,30,promo_setup,False,True
+50609,167,32,2025-10-01T09:38:00,2025-10-01T11:19:00,101,audit,True,True
+
+==> /app/store_visit_011.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+56370,253,51,2025-11-01T11:49:00,2025-11-01T12:20:00,31,audit,False,True
+56371,181,38,2025-11-01T08:54:00,2025-11-01T09:23:00,29,merchandising,False,True
+56372,235,48,2025-11-01T09:44:00,2025-11-01T10:59:00,75,order_support,False,True
+56373,202,43,2025-11-01T11:00:00,2025-11-01T11:37:00,37,audit,False,True
+
+==> /app/store_visit_012.csv <==
+visit_id,store_id,rep_id,visit_start,visit_end,duration_minutes,visit_type,planned_visit,completed_visit
+61873,396,78,2025-12-01T11:49:00,2025-12-01T13:29:00,100,merchandising,True,True
+61874,127,28,2025-12-01T12:12:00,2025-12-01T13:23:00,71,merchandising,False,True
+61875,426,87,2025-12-01T15:31:00,2025-12-01T16:01:00,30,order_support,False,True
+61876,179,36,2025-12-01T09:27:00,2025-12-01T10:37:00,70,promo_setup,False,True

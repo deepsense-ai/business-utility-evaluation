@@ -1,0 +1,52 @@
+{
+    "id": "7d285f12-debc-4a6d-ad5d-0bd27f907e29",
+    "started_at": "2026-06-09T20:20:08.320826",
+    "updated_at": "2026-06-09T20:27:43.562676",
+    "finished_at": "2026-06-09T20:27:43.562676",
+    "n_total_trials": 5,
+    "stats": {
+        "n_completed_trials": 5,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "opencode__deepseek-reasoner__adhoc": {
+                "n_trials": 4,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.15234913234913233
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.23076923076923078": [
+                            "bottleneck_employees__v7PGZ6P"
+                        ],
+                        "0.037037037037037035": [
+                            "bottleneck_employees__cnr8RNC"
+                        ],
+                        "0.22727272727272727": [
+                            "bottleneck_employees__BXr8FTD"
+                        ],
+                        "0.26666666666666666": [
+                            "bottleneck_employees__xz3b8Ry"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "RewardFileNotFoundError": [
+                        "bottleneck_employees__48F3XEM"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": 13078954,
+        "n_cache_tokens": 11880192,
+        "n_output_tokens": 64583,
+        "cost_usd": 0.22395041760000003
+    }
+}

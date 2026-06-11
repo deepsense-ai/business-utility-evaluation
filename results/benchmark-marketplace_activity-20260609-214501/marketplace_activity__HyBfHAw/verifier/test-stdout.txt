@@ -1,0 +1,107 @@
+
+GT:
+{"Barcelona":["Art","Books","Decor"],"Bilbao":["Bags","Formalwear","Women's Shoes"],"Madrid":["Fitness","Garden","Pets"],"Sevilla":["Computers","Consoles","Video Games"],"Valencia":["Bicycles","Furniture","Tools"],"Zaragoza":["Cameras","Collectibles","Musical Instruments"]}
+
+Answer:
+{
+  "A Coruna": [
+    "Bags",
+    "Women's Clothing"
+  ],
+  "Alicante": [
+    "Helmets",
+    "Strollers"
+  ],
+  "Barcelona": [
+    "Art",
+    "Books",
+    "Decor"
+  ],
+  "Bilbao": [
+    "Bags",
+    "Formalwear",
+    "Women's Shoes"
+  ],
+  "Burgos": [
+    "Car Accessories",
+    "Men's Shoes"
+  ],
+  "Cadiz": [
+    "Movies"
+  ],
+  "Cordoba": [
+    "Cleaning",
+    "Consoles",
+    "Movies",
+    "Strollers"
+  ],
+  "Gijon": [
+    "Spare Parts"
+  ],
+  "Granada": [
+    "Consoles",
+    "Women's Clothing"
+  ],
+  "Las Palmas": [
+    "Computers",
+    "Consoles",
+    "Kitchen",
+    "Men's Clothing"
+  ],
+  "Leon": [
+    "Men's Clothing",
+    "Watches"
+  ],
+  "Logrono": [
+    "Movies"
+  ],
+  "Madrid": [
+    "Pets"
+  ],
+  "Malaga": [
+    "Audio",
+    "Child Seats",
+    "Women's Clothing"
+  ],
+  "Oviedo": [
+    "Baby",
+    "Events"
+  ],
+  "Palma": [
+    "Fitness"
+  ],
+  "Salamanca": [
+    "Luggage"
+  ],
+  "Santander": [
+    "Toys",
+    "Women's Clothing",
+    "Women's Shoes"
+  ],
+  "Sevilla": [
+    "Computers",
+    "Video Games"
+  ],
+  "Toledo": [
+    "Toys",
+    "Women's Shoes"
+  ],
+  "Valencia": [
+    "Bicycles",
+    "Furniture",
+    "Tools"
+  ],
+  "Valladolid": [
+    "Bags",
+    "Cameras"
+  ],
+  "Vigo": [
+    "Men's Shoes"
+  ],
+  "Zaragoza": [
+    "Cameras",
+    "Collectibles",
+    "Musical Instruments"
+  ]
+}
+Reward: 0.2777777777777778

@@ -1,0 +1,39 @@
+{
+    "id": "e62816b2-acbb-499e-b043-03222ecdfa83",
+    "started_at": "2026-06-11T12:40:47.532240",
+    "updated_at": "2026-06-11T12:45:36.907649",
+    "finished_at": "2026-06-11T12:45:36.907649",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "claude-code__claude-fable-5__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "bottleneck_employees__tmcitjw"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 439944,
+        "n_cache_tokens": 410259,
+        "n_output_tokens": 12648,
+        "cost_usd": 1.4088165
+    }
+}

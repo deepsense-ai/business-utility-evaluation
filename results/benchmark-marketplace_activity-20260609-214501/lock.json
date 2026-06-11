@@ -1,0 +1,220 @@
+{
+    "schema_version": 1,
+    "created_at": "2026-06-09T19:45:03.886235Z",
+    "harbor": {
+        "version": "0.13.0",
+        "is_editable": false
+    },
+    "invocation": [
+        "/home/hubert/code/dnb/business-utility-evaluation/harbor/.venv/bin/harbor",
+        "run",
+        "-c",
+        "harbor/model-benchmark.yaml",
+        "-p",
+        "tasks/marketplace_activity",
+        "--env-file",
+        "harbor/.env",
+        "--jobs-dir",
+        "results",
+        "--job-name",
+        "benchmark-marketplace_activity-20260609-214501",
+        "--ak",
+        "reasoning_effort=high"
+    ],
+    "n_concurrent_trials": 10,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "VerifierTimeoutError",
+            "RewardFileNotFoundError",
+            "AgentTimeoutError",
+            "VerifierOutputParseError",
+            "RewardFileEmptyError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "task": {
+                "name": "marketplace_activity",
+                "type": "local",
+                "digest": "sha256:0f1699d6ce524d354f2e4a20e343ada682cfc1f6750bc39f0cb69ee334de54a2",
+                "path": "tasks/marketplace_activity"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "opencode",
+                "model_name": "deepseek/deepseek-reasoner",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "marketplace_activity",
+                "type": "local",
+                "digest": "sha256:0f1699d6ce524d354f2e4a20e343ada682cfc1f6750bc39f0cb69ee334de54a2",
+                "path": "tasks/marketplace_activity"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "opencode",
+                "model_name": "deepseek/deepseek-reasoner",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "marketplace_activity",
+                "type": "local",
+                "digest": "sha256:0f1699d6ce524d354f2e4a20e343ada682cfc1f6750bc39f0cb69ee334de54a2",
+                "path": "tasks/marketplace_activity"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "opencode",
+                "model_name": "deepseek/deepseek-reasoner",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "marketplace_activity",
+                "type": "local",
+                "digest": "sha256:0f1699d6ce524d354f2e4a20e343ada682cfc1f6750bc39f0cb69ee334de54a2",
+                "path": "tasks/marketplace_activity"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "opencode",
+                "model_name": "deepseek/deepseek-reasoner",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "marketplace_activity",
+                "type": "local",
+                "digest": "sha256:0f1699d6ce524d354f2e4a20e343ada682cfc1f6750bc39f0cb69ee334de54a2",
+                "path": "tasks/marketplace_activity"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "opencode",
+                "model_name": "deepseek/deepseek-reasoner",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "high"
+                },
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        }
+    ]
+}

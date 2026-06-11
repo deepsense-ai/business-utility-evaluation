@@ -1,0 +1,52 @@
+{
+    "id": "56c4a2be-70de-46de-ab8f-0a8a5832f9c8",
+    "started_at": "2026-06-09T17:50:51.639512",
+    "updated_at": "2026-06-09T18:52:26.098000",
+    "finished_at": "2026-06-09T18:52:26.098000",
+    "n_total_trials": 5,
+    "stats": {
+        "n_completed_trials": 5,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "opencode__deepseek-reasoner__adhoc": {
+                "n_trials": 4,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.12411550863290202
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.3056338028169014": [
+                            "supply_chain__GHQP2gJ"
+                        ],
+                        "0.3060941828254848": [
+                            "supply_chain__4XESeVn"
+                        ],
+                        "0.008849557522123894": [
+                            "supply_chain__aVagQMF"
+                        ],
+                        "0.0": [
+                            "supply_chain__T3BbU5A"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "AgentTimeoutError": [
+                        "supply_chain__8o3PuXX"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": 36124743,
+        "n_cache_tokens": 35458432,
+        "n_output_tokens": 211733,
+        "cost_usd": 0.2934584296
+    }
+}

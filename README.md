@@ -32,11 +32,11 @@ This repo includes **5 publicly available example datasets generated from busine
 
 ---
 
-## Leaderboard (2026.06.03)
+## Leaderboard (2026.06.11)
 
 The latest benchmark results are shown below. They give a quick view of how current models compare when evaluated not only for analytical quality, but also for repeatability across runs.
 
-![Barplot with results](./results/business_utility_leaderboard_github_scale_0_1.svg)
+![Barplot with results](./results/business_utility_leaderboard_github_scale_0_2.png)
 
 Detailed trajectories, outputs, reports, and artifacts are available in the [`results`](./results) directory.
 
@@ -308,7 +308,7 @@ To open the results viewer, run `make ui` then click the link to local server th
 
 ## Related work
 
-We describe the benchmark's `Business Utility` approach in more detail in [the separate repository](https://github.com/deepsense-ai/agent-based-simulation-benchmark) and in [the research paper](https://arxiv.org/abs/2606.00051).
+We describe the benchmark's `Business Utility` approach in more detail in [the separate repository](https://github.com/deepsense-ai/agent-based-simulation-benchmark) and in [the research paper](https://deepsense.ai/resource/business-utility-of-large-language-models-as-exploratory-data-analysis-agents/?utm_source=GitHub&utm_medium=Post_BU_Eval_11_06_26&utm_campaign=Readme).
 
 ---
 
@@ -336,11 +336,7 @@ Depending on your needs, we can deliver:
 - model evaluation reports,
 - integration with your internal evaluation pipeline.
 
-To discuss a custom dataset or evaluation project, contact us at:
-
-```text
-contact@deepsense.ai
-```
+To discuss a custom dataset or evaluation project, learn more here: [https://deepsense.ai/tech-expertise/llms-rag/custom-synthetic-datasets-for-llm-vlm-evaluation-and-training/](https://deepsense.ai/tech-expertise/llms-rag/custom-synthetic-datasets-for-llm-vlm-evaluation-and-training/?utm_source=GitHub&utm_medium=Post_BU_Eval_11_06_25&utm_campaign=Landing)
 
 ---
 
@@ -354,11 +350,7 @@ You may not modify, transform, or build upon the dataset.
 
 Commercial use of the dataset is not permitted.
 
-For commercial licensing inquiries, contact:
-
-```text
-contact@deepsense.ai
-```
+For commercial licensing inquiries, get in touch here: [https://deepsense.ai/contact-us](https://deepsense.ai/contact-us/?utm_source=GitHub&utm_medium=Post_BU_Eval_11_06_26&utm_campaign=Contact)
 
 ---
 

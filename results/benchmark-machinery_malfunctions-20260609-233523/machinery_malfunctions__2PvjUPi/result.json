@@ -1,0 +1,113 @@
+{
+    "id": "aed4c5ec-9d31-445b-9edf-c949533115b0",
+    "task_name": "deepsense.ai/machinery_malfunctions",
+    "trial_name": "machinery_malfunctions__2PvjUPi",
+    "trial_uri": "file:///home/hubert/code/dnb/business-utility-evaluation/results/benchmark-machinery_malfunctions-20260609-233523/machinery_malfunctions__2PvjUPi",
+    "task_id": {
+        "path": "tasks/machinery_malfunctions"
+    },
+    "source": null,
+    "task_checksum": "5f51be536cd9b79a9c64fe8f86535aab8e76638d0764a895697ee58e070cf052",
+    "config": {
+        "task": {
+            "path": "tasks/machinery_malfunctions",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "machinery_malfunctions__2PvjUPi",
+        "trials_dir": "results/benchmark-machinery_malfunctions-20260609-233523",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "opencode",
+            "import_path": null,
+            "model_name": "deepseek/deepseek-reasoner",
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {
+                "reasoning_effort": "high"
+            },
+            "env": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "env": {},
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "job_id": "3074254c-1c9d-4776-a55a-9ec0b07b189f"
+    },
+    "agent_info": {
+        "name": "opencode",
+        "version": "1.16.2",
+        "model_info": {
+            "name": "deepseek-reasoner",
+            "provider": "deepseek"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 6534247,
+        "n_cache_tokens": 6318080,
+        "n_output_tokens": 22834,
+        "cost_usd": 0.058692004,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.4444444444444444
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-06-09T21:35:26.642761Z",
+    "finished_at": "2026-06-09T21:44:11.604519Z",
+    "environment_setup": {
+        "started_at": "2026-06-09T21:35:27.138525Z",
+        "finished_at": "2026-06-09T21:35:41.770294Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-06-09T21:35:41.770335Z",
+        "finished_at": "2026-06-09T21:36:31.581157Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-06-09T21:36:31.581248Z",
+        "finished_at": "2026-06-09T21:43:46.420214Z"
+    },
+    "verifier": {
+        "started_at": "2026-06-09T21:43:49.515254Z",
+        "finished_at": "2026-06-09T21:43:52.871525Z"
+    },
+    "step_results": null
+}

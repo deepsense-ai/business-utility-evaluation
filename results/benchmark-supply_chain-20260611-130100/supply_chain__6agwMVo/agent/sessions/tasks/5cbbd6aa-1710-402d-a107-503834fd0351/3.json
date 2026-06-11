@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Detect consumer rejection events from demand panel",
+  "description": "HMM approach: states normal/rec1..rec14, purchase-triggered transitions, EM for emissions + rejection prob; per-purchase rejection posteriors.",
+  "activeForm": "Detecting rejection events",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

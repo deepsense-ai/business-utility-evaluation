@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/hubert/code/dnb/business-utility-evaluation/harbor/.venv/lib/python3.13/site-packages/harbor/trial/trial.py", line 292, in run
+    await self._run()
+  File "/home/hubert/code/dnb/business-utility-evaluation/harbor/.venv/lib/python3.13/site-packages/harbor/trial/single_step.py", line 40, in _run
+    await self._run_verifier()
+  File "/home/hubert/code/dnb/business-utility-evaluation/harbor/.venv/lib/python3.13/site-packages/harbor/trial/single_step.py", line 91, in _run_verifier
+    self.result.verifier_result = await self._run_shared_verifier(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/hubert/code/dnb/business-utility-evaluation/harbor/.venv/lib/python3.13/site-packages/harbor/trial/trial.py", line 449, in _run_shared_verifier
+    return await asyncio.wait_for(verifier.verify(), timeout=timeout_sec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hubert/.local/share/uv/python/cpython-3.13.5-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/hubert/code/dnb/business-utility-evaluation/harbor/.venv/lib/python3.13/site-packages/harbor/verifier/verifier.py", line 214, in verify
+    raise RewardFileNotFoundError(
+    ...<3 lines>...
+    )
+harbor.verifier.verifier.RewardFileNotFoundError: No reward file found at results/benchmark-bottleneck_employees-20260609-202005/bottleneck_employees__48F3XEM/verifier/reward.txt or results/benchmark-bottleneck_employees-20260609-202005/bottleneck_employees__48F3XEM/verifier/reward.json

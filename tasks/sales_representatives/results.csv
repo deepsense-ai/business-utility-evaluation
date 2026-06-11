@@ -29,3 +29,13 @@ anthropic/claude-opus-4-8,claude-code,xhigh,2026-06-02T19:36:14.576953Z,pTF5zCj,
 anthropic/claude-opus-4-8,claude-code,xhigh,2026-06-02T19:36:13.253318Z,pW2YEkD,1.000000,421.032,1.323388
 anthropic/claude-sonnet-4-6,claude-code,xhigh,2026-06-02T19:54:10.952218Z,r28gUUE,1.000000,395.695,0.541267
 google/gemini-3.1-pro-preview,gemini-cli,high,2026-06-02T20:08:13.387763Z,uLQUsDC,0.000000,1177.700,2.488104
+deepseek/deepseek-reasoner,opencode,high,2026-06-09T13:31:35.641629Z,sRbzcn2,0.086957,444.533,0.018532
+deepseek/deepseek-reasoner,opencode,high,2026-06-09T19:12:35.771027Z,34tzxhW,0.000000,594.942,0.017388
+deepseek/deepseek-reasoner,opencode,high,2026-06-09T19:12:35.750344Z,88r6jPP,0.666667,790.797,0.044735
+deepseek/deepseek-reasoner,opencode,high,2026-06-09T19:12:35.765382Z,BRszw3b,0.062500,349.402,0.015493
+deepseek/deepseek-reasoner,opencode,high,2026-06-09T19:12:35.288422Z,qu2E9C9,0.727273,580.962,0.013839
+anthropic/claude-fable-5,claude-code,xhigh,2026-06-11T11:22:28.576643Z,b8A5cKD,1.000000,336.839,1.650135
+anthropic/claude-fable-5,claude-code,xhigh,2026-06-11T11:22:28.099975Z,e5GCap2,1.000000,471.725,2.679229
+anthropic/claude-fable-5,claude-code,xhigh,2026-06-11T11:22:28.581837Z,oaayLhW,1.000000,751.750,3.563076
+anthropic/claude-fable-5,claude-code,xhigh,2026-06-11T11:22:28.587371Z,vEkkt6k,1.000000,427.612,2.160476
+anthropic/claude-fable-5,claude-code,xhigh,2026-06-11T11:22:28.570113Z,x6Hdwod,1.000000,318.605,1.565536

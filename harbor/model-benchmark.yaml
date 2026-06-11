@@ -32,3 +32,12 @@ agents:
     kwargs:
       reasoning_effort: high
 
+  - model_name: deepseek/deepseek-reasoner
+    name: opencode
+    kwargs:
+      reasoning_effort: high
+
+  - model_name: anthropic/claude-fable-5
+    name: claude-code
+    kwargs:
+      reasoning_effort: xhigh

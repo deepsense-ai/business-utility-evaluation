@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Attribute rejections to producers, write answer.json",
+  "description": "Map trigger purchases to producer batches via FIFO reconstruction; confirmed = producers unambiguously implicated; write /app/answer.json.",
+  "activeForm": "Attributing and writing answer",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

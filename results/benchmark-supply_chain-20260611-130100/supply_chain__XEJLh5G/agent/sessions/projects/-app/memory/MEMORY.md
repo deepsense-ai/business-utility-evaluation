@@ -1,0 +1,1 @@
+- [Supply chain offender analysis](supply-chain-offender-analysis.md) — exact FIFO reconstruction + GLS kernel regression; answer.json = 83 confirmed pairs

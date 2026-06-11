@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Parse raw order/receipt files into tables",
+  "description": "Parse /app/raw_orders, /app/raw_supplier_receipts, /app/raw_wholesaler_receipts, /app/raw_wholesaler_store_receipts (4 formats) into pandas tables saved as pickles.",
+  "activeForm": "Parsing raw files",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}
