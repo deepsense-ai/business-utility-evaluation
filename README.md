@@ -32,11 +32,14 @@ This repo includes **5 publicly available example datasets generated from busine
 
 ---
 
-## Leaderboard (2026.06.11)
+## Leaderboard
 
 The latest benchmark results are shown below. They give a quick view of how current models compare when evaluated not only for analytical quality, but also for repeatability across runs.
 
-![Barplot with results](./results/business_utility_leaderboard_github_scale_0_2.png)
+![BU results](results/bu_leaderboard_bus_github_0_3.png)
+
+![Mean scores](results/bu_leaderboard_mean_github_0_3.png)
+
 
 Detailed trajectories, outputs, reports, and artifacts are available in the [`results`](./results) directory.
 

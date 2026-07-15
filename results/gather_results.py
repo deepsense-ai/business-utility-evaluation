@@ -23,11 +23,24 @@ def load_results() -> pd.DataFrame:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Create a CVS file with business utility metric per model.")
-    parser.add_argument("-o", "--output", default="model_results.csv",
-                        help="Output CSV path (default: model_results.csv)")
-    parser.add_argument("-n", "--runs", type=int, default=5,
-                        help="Expected number of runs per model + agent + task combination")
+        description="Create business-utility and mean-score CSV files per model.")
+    parser.add_argument(
+        "--bus-output",
+        default="bus_results.csv",
+        help="Business-utility results CSV path (default: bus_results.csv)",
+    )
+    parser.add_argument(
+        "--mean-output",
+        default="mean_results.csv",
+        help="Mean-score results CSV path (default: mean_results.csv)",
+    )
+    parser.add_argument(
+        "-n",
+        "--runs",
+        type=int,
+        default=5,
+        help="Expected number of runs per model + agent + task combination",
+    )
     args = parser.parse_args()
 
     results = load_results()
@@ -38,8 +51,10 @@ def main() -> None:
     # exclude opencode results, except for allowed models
     results: pd.DataFrame = results[
         (results.agent_name != "opencode") | (results.model_name.isin(OPENCODE_ALLOWED_MODELS))
-        ].fillna(0)
+        ]
 
+    # Ignore trials that did not receive a score.
+    results = results.dropna(subset=["reward"]).fillna(0)
 
     def agg_metrics(g: pd.DataFrame) -> pd.Series:
         ms: float = g["reward"].mean()
@@ -48,36 +63,80 @@ def main() -> None:
             "n": len(g),
             "ms": ms,
             "cv": cv,
-            "business_utility": ms * np.exp(-2.25 * cv ** 0.88),
+            "business_utility_score": ms * np.exp(-2.25 * cv ** 0.88),
             "mean_duration_sec": g["duration_sec"].mean(),
             "mean_cost_usd": g["cost_usd"].mean(),
         })
 
     results_grouped: pd.DataFrame = (
         results
-        .groupby(["model_name", "agent_name", "reasoning_effort", "task"])
+        .groupby(
+            ["model_name", "agent_name", "reasoning_effort", "task"],
+            dropna=False,
+            )
         .apply(agg_metrics, include_groups=False)
         .reset_index()
     )
+
     if results_grouped["n"].nunique() != 1 or results_grouped["n"].iloc[0] != args.runs:
         expected_n = args.runs
-        missing = results_grouped[results_grouped["n"] != expected_n][
-            ["model_name", "agent_name", "reasoning_effort", "task", "n"]
-        ].copy()
+        missing = results_grouped[results_grouped["n"] != expected_n].copy()
         missing["missing_runs"] = expected_n - missing["n"]
-        missing_str = missing.to_string(index=False)
-        raise ValueError(
-            f"Expected {expected_n} runs for each model + agent + task combination, "
-            f"but the following are incomplete:\n{missing_str}"
-        )
 
-    results_per_model: pd.DataFrame = results_grouped.groupby(["model_name"])["business_utility"].mean().to_frame("business_utility")
-    results_per_model.index.rename("model", inplace=True)
-    results_per_model.rename(columns={"business_utility": "score"}, inplace=True)
-    results_per_model["score"] = results_per_model["score"].round(2)
-    results_per_model.sort_values("score", inplace=True, ascending=False)
-    results_per_model.to_csv(args.output)
-    print(f"Results saved to {args.output}")
+        error_lines = [
+            f"Expected {expected_n} runs for each model + agent + task combination.",
+            "Unexpected run counts:",
+        ]
+        for task_name, task_rows in missing.groupby("task", sort=True):
+            error_lines.append(f"{task_name}:")
+            for row in task_rows.sort_values("model_name").itertuples(index=False):
+                error_lines.append(
+                    f"  {row.model_name}: {int(row.missing_runs)}"
+                )
+
+        raise ValueError("\n".join(error_lines))
+
+    results_per_model: pd.DataFrame = (
+        results_grouped
+        .groupby("model_name", as_index=False)
+        .agg(
+            score=("business_utility_score", "mean"),
+            coefficient_of_variation=("cv", "mean"),
+            mean_score=("ms", "mean"),
+        )
+        .rename(columns={"model_name": "model"})
+    )
+    bus_results = results_per_model[
+        ["model", "score", "coefficient_of_variation"]
+    ].rename(
+        columns={
+            "coefficient_of_variation": "Coefficient of variation",
+        }
+    )
+    bus_results["score"] = bus_results["score"].round(2)
+    bus_results["Coefficient of variation"] = (
+        bus_results["Coefficient of variation"].round(4)
+    )
+    bus_results.sort_values(
+        "score",
+        inplace=True,
+        ascending=False,
+    )
+    bus_results.to_csv(args.bus_output, index=False)
+
+    mean_results = results_per_model[
+        ["model", "mean_score"]
+    ].rename(columns={"mean_score": "score"})
+    mean_results["score"] = mean_results["score"].round(2)
+    mean_results.sort_values(
+        "score",
+        inplace=True,
+        ascending=False,
+    )
+    mean_results.to_csv(args.mean_output, index=False)
+
+    print(f"Business-utility results saved to {args.bus_output}")
+    print(f"Mean results saved to {args.mean_output}")
 
 
 if __name__ == "__main__":

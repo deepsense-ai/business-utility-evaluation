@@ -18,7 +18,7 @@ google/gemini-3.5-flash,gemini-cli,high,2026-06-02T23:00:55.257631Z,HaFcmae,0.33
 openai/gpt-5.4,codex,xhigh,2026-06-02T22:53:28.298936Z,JwnHicD,0.523810,696.032,1.088686
 google/gemini-3.1-pro-preview,gemini-cli,high,2026-06-02T23:07:44.541890Z,Sab86cg,0.000000,434.400,0.691449
 google/gemini-3.5-flash,gemini-cli,high,2026-06-02T23:15:03.423042Z,XhgcNYN,0.842105,635.975,2.191918
-openai/gpt-5.5,codex,xhigh,2026-06-02T22:53:28.289961Z,fp82ip6,,719.032,1.662780
+openai/gpt-5.5,codex,xhigh,2026-06-02T22:53:28.289961Z,fp82ip6,0.0,719.032,1.662780
 google/gemini-3.5-flash,gemini-cli,high,2026-06-02T23:24:05.933073Z,igt3SaX,0.000000,664.586,2.301673
 openai/gpt-5.4,codex,xhigh,2026-06-02T23:23:06.371663Z,km4dyj2,0.727273,601.663,0.860241
 anthropic/claude-sonnet-4-6,claude-code,xhigh,2026-06-02T23:12:20.069174Z,nbySPBQ,0.043919,221.141,0.303806

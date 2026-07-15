@@ -1,5 +1,6 @@
 model,score
 claude-fable-5,0.63
+gpt-5.6-sol,0.51
 claude-opus-4-8,0.42
 gpt-5.5,0.23
 gpt-5.4,0.22
