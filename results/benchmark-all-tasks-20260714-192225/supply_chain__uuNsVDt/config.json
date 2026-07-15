@@ -1,0 +1,16 @@
+{
+    "task": {
+        "path": "tasks/supply_chain",
+        "source": "tasks"
+    },
+    "trial_name": "supply_chain__uuNsVDt",
+    "trials_dir": "results/benchmark-all-tasks-20260714-192225",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-5.6-sol",
+        "kwargs": {
+            "reasoning_effort": "xhigh"
+        }
+    },
+    "job_id": "85655499-e610-4416-b8d0-0cd5e302b3c6"
+}

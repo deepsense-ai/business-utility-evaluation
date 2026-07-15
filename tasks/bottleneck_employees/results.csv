@@ -39,3 +39,8 @@ anthropic/claude-fable-5,claude-code,xhigh,2026-06-11T10:07:56.291848Z,kBJdGtw,1
 anthropic/claude-fable-5,claude-code,xhigh,2026-06-11T10:40:49.025307Z,tmcitjw,1.000000,287.880,1.408816
 anthropic/claude-fable-5,claude-code,xhigh,2026-06-11T11:20:25.510665Z,Nbs56zA,1.000000,299.882,1.343675
 anthropic/claude-fable-5,claude-code,xhigh,2026-06-11T11:46:13.770626Z,8YWPcjy,1.000000,313.926,1.528361
+openai/gpt-5.6-sol,codex,xhigh,2026-07-14T17:30:14.440548Z,9UtUTcW,0.333333,252.182,0.540719
+openai/gpt-5.6-sol,codex,xhigh,2026-07-14T17:36:46.143164Z,A5xYNxp,0.333333,302.877,0.626126
+openai/gpt-5.6-sol,codex,xhigh,2026-07-14T17:22:27.273282Z,XA6DM5f,1.000000,469.254,1.118238
+openai/gpt-5.6-sol,codex,xhigh,2026-07-14T17:22:27.259431Z,b4MH9K6,0.333333,243.719,0.571976
+openai/gpt-5.6-sol,codex,xhigh,2026-07-14T17:43:18.494578Z,rpQanyN,0.333333,255.764,0.459256

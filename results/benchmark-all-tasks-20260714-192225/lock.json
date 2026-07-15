@@ -1,0 +1,925 @@
+{
+    "schema_version": 2,
+    "created_at": "2026-07-14T17:22:26.882350Z",
+    "harbor": {
+        "version": "0.18.0",
+        "is_editable": false
+    },
+    "n_concurrent_trials": 10,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "ApiUsageLimitError",
+            "RewardFileEmptyError",
+            "AgentTimeoutError",
+            "VerifierOutputParseError",
+            "VerifierTimeoutError",
+            "RewardFileNotFoundError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "machinery_malfunctions",
+                "type": "local",
+                "digest": "sha256:5302c60d5ebe2d8547c2240f340c26bbd3d42c313e1517cebccef39d9056a3e2",
+                "source": "tasks",
+                "path": "tasks/machinery_malfunctions"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "bottleneck_employees",
+                "type": "local",
+                "digest": "sha256:8ae34254ce39c143aa9d7d7063021a933c0fe5db75279b4a05aaeef28aadb286",
+                "source": "tasks",
+                "path": "tasks/bottleneck_employees"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "sales_representatives",
+                "type": "local",
+                "digest": "sha256:437db2a68d46cb3e2ad9beb464db107292c01edbaeaeee435729b49ad4e1aeb2",
+                "source": "tasks",
+                "path": "tasks/sales_representatives"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "marketplace_activity",
+                "type": "local",
+                "digest": "sha256:0f1699d6ce524d354f2e4a20e343ada682cfc1f6750bc39f0cb69ee334de54a2",
+                "source": "tasks",
+                "path": "tasks/marketplace_activity"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:9aa5b2a2e2021f0c9f746679069424ec26c475b5a2075df5fa64b16c7043e62a",
+                "source": "tasks",
+                "path": "tasks/supply_chain"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "machinery_malfunctions",
+                "type": "local",
+                "digest": "sha256:5302c60d5ebe2d8547c2240f340c26bbd3d42c313e1517cebccef39d9056a3e2",
+                "source": "tasks",
+                "path": "tasks/machinery_malfunctions"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "bottleneck_employees",
+                "type": "local",
+                "digest": "sha256:8ae34254ce39c143aa9d7d7063021a933c0fe5db75279b4a05aaeef28aadb286",
+                "source": "tasks",
+                "path": "tasks/bottleneck_employees"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "sales_representatives",
+                "type": "local",
+                "digest": "sha256:437db2a68d46cb3e2ad9beb464db107292c01edbaeaeee435729b49ad4e1aeb2",
+                "source": "tasks",
+                "path": "tasks/sales_representatives"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "marketplace_activity",
+                "type": "local",
+                "digest": "sha256:0f1699d6ce524d354f2e4a20e343ada682cfc1f6750bc39f0cb69ee334de54a2",
+                "source": "tasks",
+                "path": "tasks/marketplace_activity"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:9aa5b2a2e2021f0c9f746679069424ec26c475b5a2075df5fa64b16c7043e62a",
+                "source": "tasks",
+                "path": "tasks/supply_chain"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "machinery_malfunctions",
+                "type": "local",
+                "digest": "sha256:5302c60d5ebe2d8547c2240f340c26bbd3d42c313e1517cebccef39d9056a3e2",
+                "source": "tasks",
+                "path": "tasks/machinery_malfunctions"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "bottleneck_employees",
+                "type": "local",
+                "digest": "sha256:8ae34254ce39c143aa9d7d7063021a933c0fe5db75279b4a05aaeef28aadb286",
+                "source": "tasks",
+                "path": "tasks/bottleneck_employees"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "sales_representatives",
+                "type": "local",
+                "digest": "sha256:437db2a68d46cb3e2ad9beb464db107292c01edbaeaeee435729b49ad4e1aeb2",
+                "source": "tasks",
+                "path": "tasks/sales_representatives"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "marketplace_activity",
+                "type": "local",
+                "digest": "sha256:0f1699d6ce524d354f2e4a20e343ada682cfc1f6750bc39f0cb69ee334de54a2",
+                "source": "tasks",
+                "path": "tasks/marketplace_activity"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:9aa5b2a2e2021f0c9f746679069424ec26c475b5a2075df5fa64b16c7043e62a",
+                "source": "tasks",
+                "path": "tasks/supply_chain"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "machinery_malfunctions",
+                "type": "local",
+                "digest": "sha256:5302c60d5ebe2d8547c2240f340c26bbd3d42c313e1517cebccef39d9056a3e2",
+                "source": "tasks",
+                "path": "tasks/machinery_malfunctions"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "bottleneck_employees",
+                "type": "local",
+                "digest": "sha256:8ae34254ce39c143aa9d7d7063021a933c0fe5db75279b4a05aaeef28aadb286",
+                "source": "tasks",
+                "path": "tasks/bottleneck_employees"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "sales_representatives",
+                "type": "local",
+                "digest": "sha256:437db2a68d46cb3e2ad9beb464db107292c01edbaeaeee435729b49ad4e1aeb2",
+                "source": "tasks",
+                "path": "tasks/sales_representatives"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "marketplace_activity",
+                "type": "local",
+                "digest": "sha256:0f1699d6ce524d354f2e4a20e343ada682cfc1f6750bc39f0cb69ee334de54a2",
+                "source": "tasks",
+                "path": "tasks/marketplace_activity"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:9aa5b2a2e2021f0c9f746679069424ec26c475b5a2075df5fa64b16c7043e62a",
+                "source": "tasks",
+                "path": "tasks/supply_chain"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "machinery_malfunctions",
+                "type": "local",
+                "digest": "sha256:5302c60d5ebe2d8547c2240f340c26bbd3d42c313e1517cebccef39d9056a3e2",
+                "source": "tasks",
+                "path": "tasks/machinery_malfunctions"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "bottleneck_employees",
+                "type": "local",
+                "digest": "sha256:8ae34254ce39c143aa9d7d7063021a933c0fe5db75279b4a05aaeef28aadb286",
+                "source": "tasks",
+                "path": "tasks/bottleneck_employees"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "sales_representatives",
+                "type": "local",
+                "digest": "sha256:437db2a68d46cb3e2ad9beb464db107292c01edbaeaeee435729b49ad4e1aeb2",
+                "source": "tasks",
+                "path": "tasks/sales_representatives"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "marketplace_activity",
+                "type": "local",
+                "digest": "sha256:0f1699d6ce524d354f2e4a20e343ada682cfc1f6750bc39f0cb69ee334de54a2",
+                "source": "tasks",
+                "path": "tasks/marketplace_activity"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        },
+        {
+            "schema_version": 1,
+            "task": {
+                "name": "supply_chain",
+                "type": "local",
+                "digest": "sha256:9aa5b2a2e2021f0c9f746679069424ec26c475b5a2075df5fa64b16c7043e62a",
+                "source": "tasks",
+                "path": "tasks/supply_chain"
+            },
+            "install_only": false,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "codex",
+                "model_name": "openai/gpt-5.6-sol",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "reasoning_effort": "xhigh"
+                },
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": false
+            }
+        }
+    ]
+}

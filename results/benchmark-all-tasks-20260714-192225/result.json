@@ -1,0 +1,91 @@
+{
+    "id": "85655499-e610-4416-b8d0-0cd5e302b3c6",
+    "started_at": "2026-07-14T19:22:26.837653",
+    "updated_at": "2026-07-14T20:05:41.551048",
+    "finished_at": "2026-07-14T20:05:41.551048",
+    "n_total_trials": 25,
+    "stats": {
+        "n_completed_trials": 25,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "codex__gpt-5.6-sol__tasks": {
+                "n_trials": 25,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.6991501726823117
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.6451612903225806": [
+                            "machinery_malfunctions__GXPXSrB"
+                        ],
+                        "0.3333333333333333": [
+                            "bottleneck_employees__b4MH9K6",
+                            "bottleneck_employees__9UtUTcW",
+                            "bottleneck_employees__A5xYNxp",
+                            "bottleneck_employees__rpQanyN"
+                        ],
+                        "1.0": [
+                            "sales_representatives__k53y7fZ",
+                            "marketplace_activity__Yyp2Vqb",
+                            "bottleneck_employees__XA6DM5f",
+                            "sales_representatives__uEiVfX6",
+                            "marketplace_activity__xiU5Wqi",
+                            "sales_representatives__nBJqeg3",
+                            "marketplace_activity__jDwruYe",
+                            "sales_representatives__VSh2VZx",
+                            "sales_representatives__2Kyq3mS"
+                        ],
+                        "0.49777777777777776": [
+                            "supply_chain__uuNsVDt"
+                        ],
+                        "0.5714285714285714": [
+                            "machinery_malfunctions__Ezhbuaf"
+                        ],
+                        "0.14925373134328357": [
+                            "supply_chain__LovUgoj"
+                        ],
+                        "0.7407407407407407": [
+                            "machinery_malfunctions__pp4KHeZ",
+                            "machinery_malfunctions__BmTS3PT"
+                        ],
+                        "0.5405405405405406": [
+                            "supply_chain__Fp3Hf3D"
+                        ],
+                        "0.6060606060606061": [
+                            "machinery_malfunctions__3bNMX5q"
+                        ],
+                        "0.8947368421052632": [
+                            "marketplace_activity__GDjEe47"
+                        ],
+                        "0.5066666666666667": [
+                            "supply_chain__UjR5N8r"
+                        ],
+                        "0.9473684210526315": [
+                            "marketplace_activity__zBAo7vK"
+                        ],
+                        "0.30494505494505497": [
+                            "supply_chain__XaNpJ5u"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "NonZeroAgentExitCodeError": [
+                        "machinery_malfunctions__pp4KHeZ"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": 33053103,
+        "n_cache_tokens": 30865517,
+        "n_output_tokens": 610032,
+        "cost_usd": 44.6716485
+    }
+}
