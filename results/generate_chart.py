@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate business-utility-score and mean-score charts.
+"""Generate business-utility-score, mean-score and task-difficulty charts.
 
 Usage:
     python generate_chart.py
@@ -10,6 +10,9 @@ Inputs:
 
     mean_results.csv:
         model,score
+
+    tasks_results.csv:
+        task,score
 """
 
 import argparse
@@ -64,12 +67,23 @@ def main() -> None:
         default="mean_score_chart.png",
         help="Mean chart output (default: mean_score_chart.png)",
     )
+    parser.add_argument(
+        "--tasks-csv",
+        default="tasks_results.csv",
+        help="Per-task results CSV path (default: tasks_results.csv)",
+    )
+    parser.add_argument(
+        "--tasks-output",
+        default="tasks_difficulty.png",
+        help="Task-difficulty chart output (default: tasks_difficulty.png)",
+    )
     args = parser.parse_args()
 
     bus_results, mean_results = load_results(
         args.bus_csv,
         args.mean_csv,
     )
+    tasks_results = load_task_results(args.tasks_csv)
 
     plot_business_utility_scores(
         bus_results,
@@ -78,6 +92,10 @@ def main() -> None:
     plot_mean_scores(
         mean_results,
         args.mean_output,
+    )
+    plot_task_difficulty(
+        tasks_results,
+        args.tasks_output,
     )
 
 
@@ -160,6 +178,28 @@ def load_results(
     means = means.sort_values("score", ascending=False).reset_index(drop=True)
 
     return bus, means
+
+
+def load_task_results(tasks_path: str) -> pd.DataFrame:
+    tasks = pd.read_csv(tasks_path)
+
+    required_task_columns = {"task", "score"}
+    missing_tasks = required_task_columns - set(tasks.columns)
+    if missing_tasks:
+        raise ValueError(
+            f"{tasks_path} is missing columns: {sorted(missing_tasks)}"
+        )
+
+    tasks = tasks[["task", "score"]].copy()
+    tasks["score"] = pd.to_numeric(tasks["score"], errors="raise")
+
+    if tasks["task"].duplicated().any():
+        raise ValueError(f"{tasks_path} must contain only one row per task")
+
+    if not tasks["score"].between(0, 1).all():
+        raise ValueError("Task scores must be between 0 and 1")
+
+    return tasks.sort_values("score", ascending=True).reset_index(drop=True)
 
 
 def style_axis(
@@ -406,6 +446,66 @@ def plot_mean_scores(
         COLOR_VARIATION,
     )
     save_figure(figure, output, right=0.79)
+
+
+def plot_task_difficulty(
+        results: pd.DataFrame,
+        output: str,
+) -> None:
+    figure, axis = plt.subplots(
+        figsize=(12.5, 6.5),
+        dpi=150,
+    )
+
+    figure.patch.set_facecolor("white")
+    axis.set_facecolor("white")
+
+    number_of_results = len(results)
+    y_positions = range(number_of_results)
+    colors = sns.light_palette(
+        COLOR_MAIN,
+        n_colors=number_of_results + 1,
+        reverse=True,
+    )[:number_of_results]
+
+    axis.barh(
+        y_positions,
+        results["score"],
+        height=0.53,
+        color=colors,
+        zorder=3,
+    )
+
+    for position, score in enumerate(results["score"]):
+        axis.text(
+            score + 0.018,
+            position,
+            f"{score:.2f}",
+            va="center",
+            ha="left",
+            fontsize=13,
+            color=COLOR_LABELS,
+            fontweight="bold" if position == 0 else "normal",
+            )
+
+    style_axis(
+        axis,
+        results["task"],
+        "Mean score across all models, scale: 0–1",
+    )
+    axis.set_yticklabels(
+        results["task"],
+        fontsize=13,
+        color=COLOR_LABELS,
+    )
+
+    add_figure_text(
+        figure,
+        "Task difficulty",
+        "Mean score across all models per task. Lower means harder.",
+        COLOR_MAIN,
+    )
+    save_figure(figure, output)
 
 
 if __name__ == "__main__":

@@ -35,6 +35,11 @@ def main() -> None:
         help="Mean-score results CSV path (default: mean_results.csv)",
     )
     parser.add_argument(
+        "--tasks-output",
+        default="tasks_results.csv",
+        help="Per-task mean-score results CSV path (default: tasks_results.csv)",
+    )
+    parser.add_argument(
         "-n",
         "--runs",
         type=int,
@@ -135,8 +140,22 @@ def main() -> None:
     )
     mean_results.to_csv(args.mean_output, index=False)
 
+    tasks_results: pd.DataFrame = (
+        results_grouped
+        .groupby("task", as_index=False)
+        .agg(score=("ms", "mean"))
+    )
+    tasks_results["score"] = tasks_results["score"].round(2)
+    tasks_results.sort_values(
+        "score",
+        inplace=True,
+        ascending=True,
+    )
+    tasks_results.to_csv(args.tasks_output, index=False)
+
     print(f"Business-utility results saved to {args.bus_output}")
     print(f"Mean results saved to {args.mean_output}")
+    print(f"Per-task results saved to {args.tasks_output}")
 
 
 if __name__ == "__main__":
